@@ -16,6 +16,7 @@
 		3E6CC3631CF2A94B00E00A70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E6CC3611CF2A94B00E00A70 /* LaunchScreen.storyboard */; };
 		3E6CC36E1CF2A94B00E00A70 /* VendooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6CC36D1CF2A94B00E00A70 /* VendooTests.swift */; };
 		3E6CC3791CF2A94B00E00A70 /* VendooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6CC3781CF2A94B00E00A70 /* VendooUITests.swift */; };
+		3E6CC3AD1CF381CE00E00A70 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E6CC3AC1CF381CE00E00A70 /* GoogleService-Info.plist */; };
 		CA20AB81F709511F1A8C7963 /* Pods_VendooTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05AEDAE485B93305CC629B5 /* Pods_VendooTests.framework */; };
 		D5995A6D02C7FCA4F561AAB3 /* Pods_Vendoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F69918E43DC1276F42551F /* Pods_Vendoo.framework */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,7 @@
 		3E6CC3741CF2A94B00E00A70 /* VendooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VendooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E6CC3781CF2A94B00E00A70 /* VendooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendooUITests.swift; sourceTree = "<group>"; };
 		3E6CC37A1CF2A94B00E00A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E6CC3AC1CF381CE00E00A70 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6979B7B8AF7AC049C2F23196 /* Pods-Vendoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vendoo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vendoo/Pods-Vendoo.release.xcconfig"; sourceTree = "<group>"; };
 		8FACABBA7656B6698731A6B0 /* Pods_VendooUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VendooUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F6F7897E53ED9583C965E3 /* Pods-Vendoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vendoo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vendoo/Pods-Vendoo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				3E6CC35F1CF2A94B00E00A70 /* Assets.xcassets */,
 				3E6CC3611CF2A94B00E00A70 /* LaunchScreen.storyboard */,
 				3E6CC3641CF2A94B00E00A70 /* Info.plist */,
+				3E6CC3AC1CF381CE00E00A70 /* GoogleService-Info.plist */,
 			);
 			path = Vendoo;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E6CC3631CF2A94B00E00A70 /* LaunchScreen.storyboard in Resources */,
+				3E6CC3AD1CF381CE00E00A70 /* GoogleService-Info.plist in Resources */,
 				3E6CC3601CF2A94B00E00A70 /* Assets.xcassets in Resources */,
 				3E6CC35E1CF2A94B00E00A70 /* Main.storyboard in Resources */,
 			);

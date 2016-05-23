@@ -7,159 +7,159 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0013F6DE7E2247675FA8325C0AB555B1 /* PicoConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A92DEDCC3AA66A576EBF1A811F420C4 /* PicoConverter.m */; };
+		0013F6DE7E2247675FA8325C0AB555B1 /* PicoConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3003E4E786F629B3512A0AE5E8F60BF5 /* PicoConverter.m */; };
 		0095D3892B16FEFE31E289DAF2EEC38F /* Pods-Vendoo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2447F5DBEE128CAF41B98AC7FA62B9AE /* Pods-Vendoo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0222085A44991F96092B78FB418268B5 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F76F07096DAFADC39C37900992F673B /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		05C70BF173BBB3BFB8572269DD13AD50 /* SOAP12Detail.m in Sources */ = {isa = PBXBuildFile; fileRef = D7080C09F8B3C8128AFC9E83635B004D /* SOAP12Detail.m */; };
-		06808CCA8955675A9104F4B730FFFEFD /* OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D55220EE6143009C167E71084ECBD4D /* OrderedDictionary.m */; };
+		0222085A44991F96092B78FB418268B5 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 476AE7B746B850071740AC2C4241BBFA /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		05C70BF173BBB3BFB8572269DD13AD50 /* SOAP12Detail.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E23DC06ABD985574A5D610E7AFF9035 /* SOAP12Detail.m */; };
+		06808CCA8955675A9104F4B730FFFEFD /* OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = F5628AA9687F9C5F9802513691CCA257 /* OrderedDictionary.m */; };
 		07499EF9512559F0D0DAB19855FCB45D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B81A4564D7CB6658588D570BF32C26EF /* MobileCoreServices.framework */; };
-		081A50535FCDF50D0118223459790167 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D9A201EDDC5EFD3E75A8278A388A5A /* UIImageView+AFNetworking.m */; };
-		08AFAB53FBB4A259D10CB27EC5CFE83E /* GDataXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 370C3551867A163835D5FC81E2CC892E /* GDataXMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		081A50535FCDF50D0118223459790167 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FED7B6DE77CEADA93DD008EAD6D865 /* UIImageView+AFNetworking.m */; };
+		08AFAB53FBB4A259D10CB27EC5CFE83E /* GDataXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = A34B4ACA716B7B6CF693402086B8C5FA /* GDataXMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		096B9C726FE49F31823EA8EEC6A61BA1 /* Pods-VendooTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D58E7F41DDEFC4928A1F0F58E051454 /* Pods-VendooTests-dummy.m */; };
-		0D94C1A9F08091042D4566C5C7C5F88C /* SOAP11Detail.h in Headers */ = {isa = PBXBuildFile; fileRef = DAB010AF1E902FF28C45EBD1CC2C37E9 /* SOAP11Detail.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F25B917DA657DAC351C4AA787B5FB6A /* PicoPropertySchema.m in Sources */ = {isa = PBXBuildFile; fileRef = 138243E3F436BF2764311575B33C0AE3 /* PicoPropertySchema.m */; };
+		0D94C1A9F08091042D4566C5C7C5F88C /* SOAP11Detail.h in Headers */ = {isa = PBXBuildFile; fileRef = 4749CCFF8410865237C0E087DD8D4CA7 /* SOAP11Detail.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F25B917DA657DAC351C4AA787B5FB6A /* PicoPropertySchema.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A33473348DE7339DF724F0E1165D0BE /* PicoPropertySchema.m */; };
 		116C9D2311D4C4E987A4E83600F7858D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A01AFF41A57191DD79ABC9D7285490 /* Foundation.framework */; };
-		127CB1D3B204EE69ADA315CE2626BA2E /* PicoSOAPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DBBDDD76AE29657608CBC1B1CB7B585 /* PicoSOAPRequestOperation.m */; };
-		1389748BE24F9D2223187CB20D9A020C /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB930218C4D9EBBA5544E3A78EA1DE3 /* AFURLRequestSerialization.m */; };
-		1584E5A5BBCA3AA6E1ECD1E2C95D9830 /* SOAP11Fault.h in Headers */ = {isa = PBXBuildFile; fileRef = 63F7336BA801AB13DC0DF628C7DC812B /* SOAP11Fault.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17CBE972A85353EEC58B6CC0DBA34648 /* SOAP12NotUnderstoodType.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A6329E054BE3765931C923F625033BA /* SOAP12NotUnderstoodType.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		185EEB501ACB365FFF762EED05F47DA7 /* PicoCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B623577D53F79BAFA170B863D64B2F73 /* PicoCache.m */; };
-		1A15E1DAB1BF63371AE5ADFAED9169E5 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 59378CE56BA43DD0A701186AD826E0E6 /* UIRefreshControl+AFNetworking.m */; };
-		1C384C9C00881F5B98D441807AA11D67 /* PicoConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = FD1EA74DB0C8168AB11D94C193EEBE21 /* PicoConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CE5848A3307E495D6DFD6390CCB886E /* PicoConvertable.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C04FF82DA8B9B30DC7B08DABB6CE2E7 /* PicoConvertable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1EA06503C7AF1CA5E13950E3E7D7830E /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C22D1DDAAE277BE7658E960FC1EC2D /* AFNetworkActivityIndicatorManager.m */; };
-		251B153287407A947B9F77303CB7F275 /* PicoNumberConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC69EDB7F90A6F8EF37863A89F5EA1D /* PicoNumberConverter.m */; };
+		127CB1D3B204EE69ADA315CE2626BA2E /* PicoSOAPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4733FC157765226E68AD32A0CBA8C4 /* PicoSOAPRequestOperation.m */; };
+		1389748BE24F9D2223187CB20D9A020C /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C23D89283525F53B609C1034735D33 /* AFURLRequestSerialization.m */; };
+		1584E5A5BBCA3AA6E1ECD1E2C95D9830 /* SOAP11Fault.h in Headers */ = {isa = PBXBuildFile; fileRef = EF8742673FCB66600C20D2C83598C06D /* SOAP11Fault.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17CBE972A85353EEC58B6CC0DBA34648 /* SOAP12NotUnderstoodType.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB73BCC0128AF3DDF755035B21153B5 /* SOAP12NotUnderstoodType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		185EEB501ACB365FFF762EED05F47DA7 /* PicoCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8928ECF96714F713390B5FCC05D89289 /* PicoCache.m */; };
+		1A15E1DAB1BF63371AE5ADFAED9169E5 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C12E1EA53CF870C32DB1D05731F551 /* UIRefreshControl+AFNetworking.m */; };
+		1C384C9C00881F5B98D441807AA11D67 /* PicoConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 13EA163D8A4E3A95B8442806D5EFC2A4 /* PicoConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CE5848A3307E495D6DFD6390CCB886E /* PicoConvertable.h in Headers */ = {isa = PBXBuildFile; fileRef = 969C49C4493667D3B478E262AFF82D93 /* PicoConvertable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EA06503C7AF1CA5E13950E3E7D7830E /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A1748DD6A43645DBB240D06557D9A85C /* AFNetworkActivityIndicatorManager.m */; };
+		251B153287407A947B9F77303CB7F275 /* PicoNumberConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 43323F3EC3F18997C310C4E9C35C12D0 /* PicoNumberConverter.m */; };
 		263150DA2DD0AA9AF442DA4068164DF8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082961B2F56DA97D161799E54F778BAD /* CFNetwork.framework */; };
 		27840D8AC96D3180626B40D4AE7A715F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A01AFF41A57191DD79ABC9D7285490 /* Foundation.framework */; };
-		290353FFD70C6FED0E88244849792541 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 427846954ECFA3C38BD92E94EFF73C76 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		298BABB267BFF3841CDC2D083BC4E8C5 /* PicoCacheEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB5B933C06F9CCC81AA2A9581CEB43B /* PicoCacheEntry.m */; };
-		2B44537869F2E871DA87CFFA22DC331B /* PicoDataConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = F437A4D9088226CC2506F2C83B892937 /* PicoDataConverter.m */; };
-		2E4CAFABE35B8FC728822895A3A7581C /* XMLWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3362EA9538173021892AD5EDBDEF9B4D /* XMLWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F37D130B5D76485C1A990F248DC8354 /* PicoSOAPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 01C2567084F032D0ED7ED2F93366DDD0 /* PicoSOAPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32BE0FB08D9ECD2974197D862E320E36 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9A282A28D6946D255D0CEEEBE712F0 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34BEE08ED8F8B9B3B939D4D732CFBEFE /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 231F4D1DC8ABC11FDFC59604234C54C7 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35053BA799D569D42234202DCE2DB786 /* SOAP11Body.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B9D93804D8AB633A25B5982ED5E3E00 /* SOAP11Body.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		356C94C2276AD2EFDC966E226C8BB5F4 /* PicoStringConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 51324724A02FE64560E0FDC0CFBAFE2A /* PicoStringConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36463D62E47D3C86C700BE506CF20513 /* SOAP12Fault.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AD3CA693AB59CF691ADB3137AF6892 /* SOAP12Fault.m */; };
-		36F127350534946859EEB412AFAA0702 /* SOAP12Faultcode.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FFEFCB21A4B05C927827346FF874DD /* SOAP12Faultcode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3723F9F27EC35F88F58EA3BF27AC7338 /* PicoCacheEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 47ADD2FD164D915946C0A85C514A74E8 /* PicoCacheEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3763DC15F50037130B37AFA9785E680D /* SOAP12Faultreason.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD049F1EA8CA39B4D7B3A1B8182D4EB /* SOAP12Faultreason.m */; };
-		3853FC6B534F1D3B97A5038666B97DA3 /* SOAP11Header.h in Headers */ = {isa = PBXBuildFile; fileRef = B9D1060F8BB40DEF8479E69508FA704B /* SOAP11Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3ABF5C6E772B5706FEC84D0F880E9061 /* PicoXMLWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = FA4274B0B18C044CF695057D4E3B6419 /* PicoXMLWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3AC3D4A319B72CA8EC9EE10DE609BF97 /* SOAP12Fault.h in Headers */ = {isa = PBXBuildFile; fileRef = FFB0121F7557174A2A63366599068120 /* SOAP12Fault.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		401C2DDD1436B4AD6B3A43D775389EA4 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D6A0509165A5EC5120DB24E5A4FDC0D /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4126FC06B09C1514C4623BEF344EEDF2 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 51CA8815C76425144DFCA23145CB5B0C /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		290353FFD70C6FED0E88244849792541 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A889FEBF5EBB5F2AD88AF2D38EBF947 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		298BABB267BFF3841CDC2D083BC4E8C5 /* PicoCacheEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F300A87EDF200B00A6BFAAB19108B5 /* PicoCacheEntry.m */; };
+		2B44537869F2E871DA87CFFA22DC331B /* PicoDataConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 55690D869E8DFA81226D2F127FCA90E4 /* PicoDataConverter.m */; };
+		2E4CAFABE35B8FC728822895A3A7581C /* XMLWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 53FA98865717E0DFE1CF958B392C4E18 /* XMLWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F37D130B5D76485C1A990F248DC8354 /* PicoSOAPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = E4D6DF2CAF05D7A235B746A3D843F01B /* PicoSOAPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32BE0FB08D9ECD2974197D862E320E36 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EF0D4763542C81920CBB6BAD1E7D61B /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34BEE08ED8F8B9B3B939D4D732CFBEFE /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D7FD90D6F4667404C466150420F6F9 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35053BA799D569D42234202DCE2DB786 /* SOAP11Body.h in Headers */ = {isa = PBXBuildFile; fileRef = 9447435902209CF09569BB59F9ACF664 /* SOAP11Body.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		356C94C2276AD2EFDC966E226C8BB5F4 /* PicoStringConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA8E8F7E3F247A6C23E1BC6EF9E1725 /* PicoStringConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36463D62E47D3C86C700BE506CF20513 /* SOAP12Fault.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F79F02B256A3D21872F98C87A3A3EF4 /* SOAP12Fault.m */; };
+		36F127350534946859EEB412AFAA0702 /* SOAP12Faultcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 71FF181707D1C704A6F9045569471D6E /* SOAP12Faultcode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3723F9F27EC35F88F58EA3BF27AC7338 /* PicoCacheEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 643561DEC39A710B8A8A9D1BF476E3D3 /* PicoCacheEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3763DC15F50037130B37AFA9785E680D /* SOAP12Faultreason.m in Sources */ = {isa = PBXBuildFile; fileRef = E40726F68DB75E9C4D2A5F38F3952E1A /* SOAP12Faultreason.m */; };
+		3853FC6B534F1D3B97A5038666B97DA3 /* SOAP11Header.h in Headers */ = {isa = PBXBuildFile; fileRef = F08D698FA86A207A86297538A35A029B /* SOAP11Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ABF5C6E772B5706FEC84D0F880E9061 /* PicoXMLWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 901F9CB0EBC0E12A1B8DD27F1E18F3DE /* PicoXMLWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AC3D4A319B72CA8EC9EE10DE609BF97 /* SOAP12Fault.h in Headers */ = {isa = PBXBuildFile; fileRef = 338F6428A25EB5174503EF02107E4B59 /* SOAP12Fault.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		401C2DDD1436B4AD6B3A43D775389EA4 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAE9643BCEDF15DF6CF6F520E86EA4E /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4126FC06B09C1514C4623BEF344EEDF2 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 32E75A818715E87D1A71BE3D468CFB62 /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4186787644AF6C98193CCF8C12E8D6B0 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD042EC572F10CF1D6B96B94CE4963CC /* AFNetworking.framework */; };
-		42643BE23BCFC5EB0F4E7ED31768B68A /* PicoDateConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = D87450CF1D08FE3AF1D50C930A26766F /* PicoDateConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43BC8D2611C04A47C0BE9FFB228E07A5 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DECD29A116FC8B288ABD073831B03CF /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4433527C657120BBB1978008CABDB7B3 /* SOAP12Faultreason.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B019834D20B8FFAF391604871BD3F8 /* SOAP12Faultreason.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42643BE23BCFC5EB0F4E7ED31768B68A /* PicoDateConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = E54F6C4981A1851B09E22E55657BEB8F /* PicoDateConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43BC8D2611C04A47C0BE9FFB228E07A5 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F25E5AFAC34E87270E269BD0C302A6C /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4433527C657120BBB1978008CABDB7B3 /* SOAP12Faultreason.h in Headers */ = {isa = PBXBuildFile; fileRef = 7233E35E7154AD3A1CFC1657E747ABD0 /* SOAP12Faultreason.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4709B3DC439F20AC0EE23258666AD2AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A01AFF41A57191DD79ABC9D7285490 /* Foundation.framework */; };
 		4740F7545240B7461849EFDC0F075166 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C06775C1550577DD6BA9100EEF1CF95 /* SystemConfiguration.framework */; };
-		4C49A4B4D6FB7CBBA27B18F0E001AE18 /* SOAP12Header.h in Headers */ = {isa = PBXBuildFile; fileRef = D8B3BA0EA22E67BB561C224E2050C7A3 /* SOAP12Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C8A700F201D817E06260539577C0778 /* PicoClassSchema.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F022FA2315D5E13D01DD628D7A24450 /* PicoClassSchema.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CA2747F836DF4225DB2BBBF3C9857E9 /* PicoBindingSchema.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D9D56C238CA9A38F0C3077E7DB2642 /* PicoBindingSchema.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DE74A102F928A9E1177E7F5D3F1904B /* PicoStringConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC11D1F446961C29239BF3E298C0B7D /* PicoStringConverter.m */; };
-		4E32C6B26518F18DC4AB3E225B86EE88 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43691A9FCB3D14495DC8FC712211D2AA /* AFSecurityPolicy.m */; };
-		4E94B8F460BF431A50D94814F7C8AF61 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C72D6FAC57AE3D5AC70797F1393723 /* UIActivityIndicatorView+AFNetworking.m */; };
-		4F093F6FBA6E6B060CF66145CF214E14 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4084B4EA24E09C9702116C3716D68363 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5182510A2DA1A6F9F44DAEDEDA45265F /* SOAP11Fault.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB57F6D8D5980A65DB299E91F3C3A2 /* SOAP11Fault.m */; };
+		4C49A4B4D6FB7CBBA27B18F0E001AE18 /* SOAP12Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 6398E66DAAF420ED6C538AE5529977F4 /* SOAP12Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C8A700F201D817E06260539577C0778 /* PicoClassSchema.h in Headers */ = {isa = PBXBuildFile; fileRef = F8987D924C81E731D9A2255813A6FA07 /* PicoClassSchema.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CA2747F836DF4225DB2BBBF3C9857E9 /* PicoBindingSchema.h in Headers */ = {isa = PBXBuildFile; fileRef = 3170F4FF3E92474EA69236FA0F165FB2 /* PicoBindingSchema.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE74A102F928A9E1177E7F5D3F1904B /* PicoStringConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2447C9A33D69C13B935C995C63537E /* PicoStringConverter.m */; };
+		4E32C6B26518F18DC4AB3E225B86EE88 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4357669E3447C7453FFA688442C4EB /* AFSecurityPolicy.m */; };
+		4E94B8F460BF431A50D94814F7C8AF61 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E2769182A0B615954FAF8426C83948 /* UIActivityIndicatorView+AFNetworking.m */; };
+		4F093F6FBA6E6B060CF66145CF214E14 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E381A61A7D44EE24898716E8448BC46 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5182510A2DA1A6F9F44DAEDEDA45265F /* SOAP11Fault.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F430D8F5990061F01425AC280A575F /* SOAP11Fault.m */; };
 		54D00A6EF2E46F4A4672CF5FB6492E1E /* Pods-VendooUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1D2220615A13294FD6AEC63793DA67 /* Pods-VendooUITests-dummy.m */; };
 		56B7AC68F5C94FD682AE4303107E5AF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A01AFF41A57191DD79ABC9D7285490 /* Foundation.framework */; };
-		56C8D4F00869E61F210A24E0EE8F3A13 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F178C7828BC1655AB133C52D8D69F9C /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		575E7CB2D6DE03AA64E69683F9FA9D0B /* PicoXMLRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 91AC7D6ACA7F3B7625E34C29505A6D2F /* PicoXMLRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56C8D4F00869E61F210A24E0EE8F3A13 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = FA992559AA1DBC9A083460ED306F4EE1 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		575E7CB2D6DE03AA64E69683F9FA9D0B /* PicoXMLRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A5B10338440F44C90C156607DF15149 /* PicoXMLRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59E32510D0201F13D14DF5CB41CD0E96 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6C3EE6008EF94BEE94EF44BB21CC47 /* Security.framework */; };
-		5FA117E5597FFEB723A700BA077A7B6B /* SOAP12Body.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B0BCF679277CBCB18B8EE5F448984F8 /* SOAP12Body.m */; };
-		6042E03938FE23B2CB265B549675C2F3 /* SOAP12Reasontext.m in Sources */ = {isa = PBXBuildFile; fileRef = E252C34D195CB35FBB57F4205878A4BE /* SOAP12Reasontext.m */; };
-		626752EF7EB05FDEFB7DDBA7CE66B57D /* PicoKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0551535C161FA6C55748D6903D8D21 /* PicoKit-dummy.m */; };
-		639F646ABB9A9E4D3666B6CDD155BDBD /* PicoXMLReader.h in Headers */ = {isa = PBXBuildFile; fileRef = C925A25F2182E5240629C5CEADB18EDF /* PicoXMLReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64D1DE8EA4BAACC7B802D787788E3F88 /* SOAP11Envelope.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC4928FD73026E2AA21B8F564B235CD /* SOAP11Envelope.m */; };
-		68F25493DF29423FEA798D2247A6C918 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0415A19E00405EC9C792F7F2010BE933 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C0346EF4F131C59680FB8DA3200AE1F /* SOAP12FaultcodeEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = 96A9A95B1B37284EB3649B9700EB20F0 /* SOAP12FaultcodeEnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6FDE95FB21B7F5E1EC7A9F49489DAC62 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 638115DB09385BBB194A51ED812D1316 /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71A7E055D787374AA8F2EC002811AED3 /* SOAP12SupportedEnvType.h in Headers */ = {isa = PBXBuildFile; fileRef = F5F2B952197DEEA8C92ABC117964775F /* SOAP12SupportedEnvType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FA117E5597FFEB723A700BA077A7B6B /* SOAP12Body.m in Sources */ = {isa = PBXBuildFile; fileRef = 423144453603B0977CB07EEC534C2AC8 /* SOAP12Body.m */; };
+		6042E03938FE23B2CB265B549675C2F3 /* SOAP12Reasontext.m in Sources */ = {isa = PBXBuildFile; fileRef = 8039538A6BEC0DE86E184C6798828DA8 /* SOAP12Reasontext.m */; };
+		626752EF7EB05FDEFB7DDBA7CE66B57D /* PicoKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A850BEF3685209C1D5AE56CD58E983D /* PicoKit-dummy.m */; };
+		639F646ABB9A9E4D3666B6CDD155BDBD /* PicoXMLReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5444B31B5FD0857CCAAFC45023CF5D /* PicoXMLReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64D1DE8EA4BAACC7B802D787788E3F88 /* SOAP11Envelope.m in Sources */ = {isa = PBXBuildFile; fileRef = 200B442FF8996516047D4BA43C67B0BD /* SOAP11Envelope.m */; };
+		68F25493DF29423FEA798D2247A6C918 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = DECF54BFB8B8DB771046002934D3A7A8 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C0346EF4F131C59680FB8DA3200AE1F /* SOAP12FaultcodeEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = AA9967BFEB2387763F4459FD300C09FE /* SOAP12FaultcodeEnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FDE95FB21B7F5E1EC7A9F49489DAC62 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = DA04BF85093538ECA5F320B436EB8E89 /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71A7E055D787374AA8F2EC002811AED3 /* SOAP12SupportedEnvType.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E0F1866EB1F6CE05604BA08BE7B912 /* SOAP12SupportedEnvType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7480883DDFB8F42068AFF34CAFA4183A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A01AFF41A57191DD79ABC9D7285490 /* Foundation.framework */; };
-		76C1FA68EFCD242119622AE2CEB4D24F /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = F8445BAE2C735F6B910E42E1FF9FF610 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76C72D9FA8C86EBBC7E3E4AF7F0B4BB5 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DD289BC29C47E1B48BC2727AC1C437D /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7999F436677B92F6DDA1C3D45B67762F /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 871C16D97FB10AFC4AFE24AA6F8D3070 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79D287D48B2A81896F365CA21F0B27D6 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E72198AAE96563BD64D291ED6F1016A8 /* UIWebView+AFNetworking.m */; };
-		7A58F060AC2558071BD5B0B15AE596C6 /* PicoWritable.h in Headers */ = {isa = PBXBuildFile; fileRef = 58A1C47AC811D5C4CAA4CE9374FB14BA /* PicoWritable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FB067C07D2C78201A78245B76CC17E9 /* PicoClassSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BECC6B87E1AC1FC868121CA6688E7F /* PicoClassSchema.m */; };
-		8357FE41949BE1FCF43C1D2879DB6A29 /* PicoCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EEA8B73E819E1A319B720B2F027D8E1 /* PicoCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8493A1022392AFF1965FC3FAB4607414 /* SOAP11Detail.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D306583A2D6C297AEBBD7455BDFB5A /* SOAP11Detail.m */; };
+		76C1FA68EFCD242119622AE2CEB4D24F /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB954ABD9046473A018302B0DCBE08F /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76C72D9FA8C86EBBC7E3E4AF7F0B4BB5 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E55C0A3E2128C89C47B0ABE898AA3774 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7999F436677B92F6DDA1C3D45B67762F /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7721832C4979460884DFE75D5248D094 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79D287D48B2A81896F365CA21F0B27D6 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0371CF0E8C751E84C1533B28D3358B /* UIWebView+AFNetworking.m */; };
+		7A58F060AC2558071BD5B0B15AE596C6 /* PicoWritable.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A21660277A9EDA58FCB31FD92C1BA43 /* PicoWritable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FB067C07D2C78201A78245B76CC17E9 /* PicoClassSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F7871262A1467F5DC99ABCCD8C79DD /* PicoClassSchema.m */; };
+		8357FE41949BE1FCF43C1D2879DB6A29 /* PicoCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E889A5027C532B4930F69465411A403 /* PicoCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8493A1022392AFF1965FC3FAB4607414 /* SOAP11Detail.m in Sources */ = {isa = PBXBuildFile; fileRef = D818BF5E5410F3DD137E284DE165F718 /* SOAP11Detail.m */; };
 		880866F11C02E1891F514711B86A736D /* Pods-Vendoo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EBEA79B4C2F3D8E52CF265ABC735AB5 /* Pods-Vendoo-dummy.m */; };
-		89D320F81D7E49E88352493C2FEB0714 /* PicoSOAPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D059429AC7558EE76CFD38A3267D349F /* PicoSOAPClient.m */; };
-		8B01AE7A2B6926117AF7AA7F921DB708 /* PicoConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 69AC004A4D5324053295C901E6F58536 /* PicoConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BB5E13770325286C85E5205E0966FD7 /* PicoSOAPReader.h in Headers */ = {isa = PBXBuildFile; fileRef = B43F34E8150FBC2E62C6253F0A3AB69F /* PicoSOAPReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89D320F81D7E49E88352493C2FEB0714 /* PicoSOAPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F234B925AA6872541007A60A3E983B73 /* PicoSOAPClient.m */; };
+		8B01AE7A2B6926117AF7AA7F921DB708 /* PicoConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = E7BFF5EF7790E1256405211421EDAF70 /* PicoConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BB5E13770325286C85E5205E0966FD7 /* PicoSOAPReader.h in Headers */ = {isa = PBXBuildFile; fileRef = A326A276CEDE87C2080F6B79A441DC67 /* PicoSOAPReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C20B54F405F2BADE0F64B538622E231 /* Pods-VendooTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48A543CE70E5133398E8F1067F58D68C /* Pods-VendooTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C874B306AE5A045C9B7FD91B2CC8D31 /* PicoConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 31D7D5DEAFE868A4A4ECBE840EA26266 /* PicoConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DA9AA49F47C0E5D647CF3C96180843B /* PicoXMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A913E9C91E8C41D8B688FB313CDAF60 /* PicoXMLReader.m */; };
-		8F07671E7B41068F6BDBBEF4E39D322A /* PicoConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EFF8DEF2E940633D12C992A63885E7A /* PicoConstants.m */; };
-		8F51C91CAE6EA947E9C861F49919BF22 /* PicoXMLClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D8FE1810CA6BC62265331470A0F68E /* PicoXMLClient.m */; };
+		8C874B306AE5A045C9B7FD91B2CC8D31 /* PicoConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE6EF64E5C1A6FE365D6A779FD903E6 /* PicoConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DA9AA49F47C0E5D647CF3C96180843B /* PicoXMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = C4072524A537DA7884A51C35C7F78A11 /* PicoXMLReader.m */; };
+		8F07671E7B41068F6BDBBEF4E39D322A /* PicoConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B45227C657FA3DF2CDA5AB934FD182 /* PicoConstants.m */; };
+		8F51C91CAE6EA947E9C861F49919BF22 /* PicoXMLClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7034CC8AA579C08A8F17AD7FCF866FAA /* PicoXMLClient.m */; };
 		8FFE0CA5DFE3379BBDA253EBFF2D07E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF51999706C0856A3D501206CDDFE4B /* CoreGraphics.framework */; };
-		9008E52F56E5C0AE4CC4747B573D404C /* SOAP12UpgradeType.h in Headers */ = {isa = PBXBuildFile; fileRef = D40F86CD51211AA8C62B000F7A392FDB /* SOAP12UpgradeType.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		903E8BA75D09A05881EB2DD3F622CCF4 /* PicoDateConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B489E85EDF03229DD5EF39D661B95F /* PicoDateConverter.m */; };
-		911E724303BA23E8A474DD386FAC9C2B /* PicoSOAPWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = BD012CA166D51A4E1F0798D56ACAC9EC /* PicoSOAPWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93D03012CEB9E4EE27E6DB43412D6FF4 /* SOAP11Body.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B70D1FAE6FA017A6BC4A688E7D52CD /* SOAP11Body.m */; };
-		945C9834347A969CDD4FB9A5AB9FF0E0 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC8BDEAADDFB3D63F21054F25BEB768 /* AFURLSessionManager.m */; };
-		956CD88D16E0E4A464C3B382FAEEBFAD /* SOAP12Detail.h in Headers */ = {isa = PBXBuildFile; fileRef = 979ABA97951E3FEDC5345F555FB1ED00 /* SOAP12Detail.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96247D22CC837A06A450BB49F1D2F79E /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = FADE1B70C8BC9EA51F1000530B8B1D95 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B209880BF6C678EBB9FE3B5E1AFED77 /* PicoDataConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E8872AA4A2FD7BE965C1FEBBBF75418 /* PicoDataConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BA81C3A00FBFB0269E1F502C7CA7111 /* SOAP11Envelope.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF2094EF2002373DF40A97B16A9624A /* SOAP11Envelope.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DF0BDC4A549EEFB599696F517AF5E93 /* SOAP12UpgradeType.m in Sources */ = {isa = PBXBuildFile; fileRef = 94604F224B7271633876B766C32832AA /* SOAP12UpgradeType.m */; };
-		9E795055729E8F398250A5687BB00AE2 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD6F46E8009EA477C9E2C32ACF1AE19 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F311BFDD71F019984158BF9906299F2 /* PicoBoolConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = C88D2332190AE02F18972E6365B65CCB /* PicoBoolConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9008E52F56E5C0AE4CC4747B573D404C /* SOAP12UpgradeType.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F11CAEB81ECC5851D93D3EEEE414B69 /* SOAP12UpgradeType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		903E8BA75D09A05881EB2DD3F622CCF4 /* PicoDateConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CF82F0649719EE753F8DCF8B86250B /* PicoDateConverter.m */; };
+		911E724303BA23E8A474DD386FAC9C2B /* PicoSOAPWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 500D78F333608C00AA6EBE7F41C055EF /* PicoSOAPWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93D03012CEB9E4EE27E6DB43412D6FF4 /* SOAP11Body.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BB3B6654D26CB6271545C09706BB4D /* SOAP11Body.m */; };
+		945C9834347A969CDD4FB9A5AB9FF0E0 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91352F40D4E9D8E1476BB2CB919CFF98 /* AFURLSessionManager.m */; };
+		956CD88D16E0E4A464C3B382FAEEBFAD /* SOAP12Detail.h in Headers */ = {isa = PBXBuildFile; fileRef = 28751A0B52548B4EBFAAFD269262EE5D /* SOAP12Detail.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96247D22CC837A06A450BB49F1D2F79E /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 04D576C57A1A0411DA8EFD2057D44508 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B209880BF6C678EBB9FE3B5E1AFED77 /* PicoDataConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AEDF4305C6D5EEBAC0CB2AB64405009 /* PicoDataConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BA81C3A00FBFB0269E1F502C7CA7111 /* SOAP11Envelope.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CD3CC4DA01460F074D74CEF495D6D38 /* SOAP11Envelope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DF0BDC4A549EEFB599696F517AF5E93 /* SOAP12UpgradeType.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C4059E9B123641BD379495BCE5FAD1 /* SOAP12UpgradeType.m */; };
+		9E795055729E8F398250A5687BB00AE2 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B116BDFB13018F1EA946A68157FF342D /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F311BFDD71F019984158BF9906299F2 /* PicoBoolConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = E5290ACD66677175FCEE26FD79DDD01E /* PicoBoolConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F6583620EA28E354C4A4F5891E087FA /* Pods-VendooUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF79BC0792545A7FE5B98E8EE5A6BAE4 /* Pods-VendooUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F756E533FBC1ECD87F8F13FE411BD51 /* PicoBindingSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = 148D1ADCB591F54A3A0C57F01183C26A /* PicoBindingSchema.m */; };
-		A234CD03F89584D0547A5D7D999E03C5 /* PicoSOAPReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 99145C08C4FB05EA6555BA9D5D7D069B /* PicoSOAPReader.m */; };
-		A2F0870136D90D9CE7905634CBEC46C2 /* SOAP12Body.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B0D5F0DF7CC1BADB9684628068DC994 /* SOAP12Body.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6245406942E1B12CA6B3037098E854F /* PicoXMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = E0FC043CC1D63F99E77FBD5BFAFCEBC7 /* PicoXMLElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7D274ABDE3D32AE032C1B43FCD12B81 /* SOAP12Faultcode.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6A9E0600B2CEDBA95A9DC72FF0B6C1 /* SOAP12Faultcode.m */; };
-		AA3B76EE5D2EDCFC6BBC162662C9AB3F /* SOAP12Reasontext.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C53D322DB43E33BC4063FF12C5F48B9 /* SOAP12Reasontext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F756E533FBC1ECD87F8F13FE411BD51 /* PicoBindingSchema.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BCD71C84714CDB07BE8B6F5E61BBFE /* PicoBindingSchema.m */; };
+		A234CD03F89584D0547A5D7D999E03C5 /* PicoSOAPReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0411AE4C5051154E075AD04B8C0D6E /* PicoSOAPReader.m */; };
+		A2F0870136D90D9CE7905634CBEC46C2 /* SOAP12Body.h in Headers */ = {isa = PBXBuildFile; fileRef = 85531C5946746E8481E8282A1F34B4CC /* SOAP12Body.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6245406942E1B12CA6B3037098E854F /* PicoXMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 38BC154BEE06AD869828974FC8BF84B7 /* PicoXMLElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7D274ABDE3D32AE032C1B43FCD12B81 /* SOAP12Faultcode.m in Sources */ = {isa = PBXBuildFile; fileRef = FF18B38D9C2DA9A4ACA299923A13C309 /* SOAP12Faultcode.m */; };
+		AA3B76EE5D2EDCFC6BBC162662C9AB3F /* SOAP12Reasontext.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8D4B0B77667110833FFC47157A9E75 /* SOAP12Reasontext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC7C6289920D865E6FBFC20F0DC4F252 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B81A4564D7CB6658588D570BF32C26EF /* MobileCoreServices.framework */; };
-		B03FBE8B4AA2B23CB920A248BB98AB3E /* SOAP12SupportedEnvType.m in Sources */ = {isa = PBXBuildFile; fileRef = 3134F2CFC239BFABB77155AD2803EFE6 /* SOAP12SupportedEnvType.m */; };
-		B13DC7A0E6506DF7327E2AABA60FAE4F /* SOAP12Subcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EE510BAA0D471BDD6B2538B98184373 /* SOAP12Subcode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B237CE69F2373005B527EFF9204AA06B /* PicoKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC5B40E52C8E40166F896597BA834AC2 /* PicoKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B42A49260E02658534FF92164B6FC311 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C826B90D43D460E5829A09E6AA8D55EF /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B70C33F5EB2E85CA0E4425B1A253BAFF /* PicoBoolConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6B66DB918EF085489A7563AB207079 /* PicoBoolConverter.m */; };
-		BB82DC2891A35AC22DD6D5CE4CAE4364 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2224134F411D0862DD28293FC569D6 /* UIButton+AFNetworking.m */; };
-		BB938660E9F573C5569C0B2F76443DCE /* PicoBindable.h in Headers */ = {isa = PBXBuildFile; fileRef = 098E7925649005223DB78556A188FC28 /* PicoBindable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C087B9B3A493BC8232CBA4DB1CB47A67 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 455239AD00541C7CC070C36D02C51B54 /* AFNetworkReachabilityManager.m */; };
-		C2B409E16419D1783D04BA380DCBDDF5 /* PicoPropertySchema.h in Headers */ = {isa = PBXBuildFile; fileRef = 764084D3967AB85C11A5FFFE5D2D3024 /* PicoPropertySchema.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C51B96A7E543F72CD7925968E35DC041 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72016876D7B47DC3C3E3259556BBD7B9 /* AFNetworking-dummy.m */; };
-		C6CDABE1AEBB5DC4A35A6B221BB98D13 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BF0C919763DE528711072D2EF9B651 /* AFURLConnectionOperation.m */; };
-		C70AC3CB2D21E9466D55F37D6167DBA5 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 210B4D796754D23FF25551287BE0F31D /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7B655603FB1089A5E2D28FCE12DF12F /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5E6447701E4EB9C083CCC69A76BE9 /* AFHTTPRequestOperationManager.m */; };
-		C8CFDFCD0A8A590398560534407636B4 /* SOAP12Envelope.m in Sources */ = {isa = PBXBuildFile; fileRef = F43A4DA2AA6B7AAFB25596E0EB0B27D1 /* SOAP12Envelope.m */; };
-		CAC55489C107050F90C74EC7E0618EDB /* OrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 10BD0628E897B8626EFB6CAF82184D9E /* OrderedDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE2528225E7F88C8FB7A0C48448B72E6 /* PicoXMLClient.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD8EA4CC2F4CECC02CC092D12B37E92 /* PicoXMLClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CEDFE191DF66B8884828359B3494F8E9 /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 745110AE564E01149666A04554B7E709 /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF051D17275C20E0FBF5736E3C8A0573 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B5D2B455E0ACA9D345731D0AC3A57E72 /* UIProgressView+AFNetworking.m */; };
-		D14B90EC47C350BCEA5F953586978228 /* XMLWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0CCC26AE4615E9ADD93639F8FA6F5C /* XMLWriter.m */; };
-		D47A43CEEEBB4F2760D96D02FEEC879A /* PicoXMLWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E02AC300CCE70E6D037A5146528BED /* PicoXMLWriter.m */; };
-		D7C1594DC6A0E38E33E8971C288A9F82 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA41663E3D7BB320141809CC1CA756 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D86913E8F8A1CA01D792A1DFD3AE671C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C44319040FC132262083F8875220725 /* AFHTTPSessionManager.m */; };
-		D96FB769680B41AD1EAF2FDAF20F348A /* PicoXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 6121C03B9153C5D4E331C742E34071D2 /* PicoXMLElement.m */; };
-		DB1AEDB35C8A2BCE2A7C466A5EBE874D /* PicoReadable.h in Headers */ = {isa = PBXBuildFile; fileRef = BA1D5E1095DFBED0F10F2654B1B27BF4 /* PicoReadable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB840EF5FD9645993A399CDE849E784C /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 723F7BADE0A4EA4DE4A81D03098EEE13 /* AFURLResponseSerialization.m */; };
-		DBC228F2E7B341A858EA328E1BB9F783 /* SOAP11Header.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5929EBA51032CE539858FC4069C939 /* SOAP11Header.m */; };
-		DF4112FFA156222BF7053EF22A8827B9 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAFB848B7EB13C5136C80A1561B8958 /* AFHTTPRequestOperation.m */; };
-		DFC29AA19504EF95C8902348017273A8 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F25D61FEA62DFCA2769492EFD02847F2 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B03FBE8B4AA2B23CB920A248BB98AB3E /* SOAP12SupportedEnvType.m in Sources */ = {isa = PBXBuildFile; fileRef = 1308EA8F7AC1C3348EFD67E022F6BCB9 /* SOAP12SupportedEnvType.m */; };
+		B13DC7A0E6506DF7327E2AABA60FAE4F /* SOAP12Subcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 5627B7F66C934029A5DB6CCE629BEE81 /* SOAP12Subcode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B237CE69F2373005B527EFF9204AA06B /* PicoKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66F3888DC28B2C64A86DC3D5D97FE913 /* PicoKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B42A49260E02658534FF92164B6FC311 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9211C98F051B7C9D828B7EF13366085F /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B70C33F5EB2E85CA0E4425B1A253BAFF /* PicoBoolConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A0F04900E014517C15BA3C6084466F /* PicoBoolConverter.m */; };
+		BB82DC2891A35AC22DD6D5CE4CAE4364 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B543DB180DFEADE34BFD5E8FFA2D1F /* UIButton+AFNetworking.m */; };
+		BB938660E9F573C5569C0B2F76443DCE /* PicoBindable.h in Headers */ = {isa = PBXBuildFile; fileRef = 62DBFC23355FAB16664861165B39E1F6 /* PicoBindable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C087B9B3A493BC8232CBA4DB1CB47A67 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 598A655ADF42A886E6EFDDD153A7974A /* AFNetworkReachabilityManager.m */; };
+		C2B409E16419D1783D04BA380DCBDDF5 /* PicoPropertySchema.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A54EC393866ABA861FACF8FCD58E513 /* PicoPropertySchema.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C51B96A7E543F72CD7925968E35DC041 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39104F1B3387A20F4D1EA692E7BF8B48 /* AFNetworking-dummy.m */; };
+		C6CDABE1AEBB5DC4A35A6B221BB98D13 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CEF5D61284D6B46AB0778BAF01072 /* AFURLConnectionOperation.m */; };
+		C70AC3CB2D21E9466D55F37D6167DBA5 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = ED906269CCE57DDE25B8E28D27279C06 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7B655603FB1089A5E2D28FCE12DF12F /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D6E56B1B8C20C8CBC6299C42DBF6CF /* AFHTTPRequestOperationManager.m */; };
+		C8CFDFCD0A8A590398560534407636B4 /* SOAP12Envelope.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C668D31EEB4F8B8F8D6F8C5651ED42 /* SOAP12Envelope.m */; };
+		CAC55489C107050F90C74EC7E0618EDB /* OrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = F539ED135C0480F66225B189D78A3417 /* OrderedDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE2528225E7F88C8FB7A0C48448B72E6 /* PicoXMLClient.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6544EA116AB8FC5061772DDC058B5F /* PicoXMLClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEDFE191DF66B8884828359B3494F8E9 /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B9FCA89C6EED881C8B468E3291EC38A4 /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF051D17275C20E0FBF5736E3C8A0573 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C8C238DF4982D3BC1810EA06D97D72 /* UIProgressView+AFNetworking.m */; };
+		D14B90EC47C350BCEA5F953586978228 /* XMLWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D238B599B0477B9DA888372CB0A78B7 /* XMLWriter.m */; };
+		D47A43CEEEBB4F2760D96D02FEEC879A /* PicoXMLWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8086B116F55A5482F44E9CBAFF6155 /* PicoXMLWriter.m */; };
+		D7C1594DC6A0E38E33E8971C288A9F82 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 210F331795632D1C3F5BF17D37524ABA /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D86913E8F8A1CA01D792A1DFD3AE671C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CB184749E5A63806C9B0E589C0ED46 /* AFHTTPSessionManager.m */; };
+		D96FB769680B41AD1EAF2FDAF20F348A /* PicoXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4050E96A5B7A4A46F73C1F9F20DC30 /* PicoXMLElement.m */; };
+		DB1AEDB35C8A2BCE2A7C466A5EBE874D /* PicoReadable.h in Headers */ = {isa = PBXBuildFile; fileRef = D9D14D430E46E9E88565F6BA423FBA88 /* PicoReadable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB840EF5FD9645993A399CDE849E784C /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E4E2B3BD9AF12D721C887D8C1BCA8B /* AFURLResponseSerialization.m */; };
+		DBC228F2E7B341A858EA328E1BB9F783 /* SOAP11Header.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AEBD38E623A7BA132015C14C66DA08 /* SOAP11Header.m */; };
+		DF4112FFA156222BF7053EF22A8827B9 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEF70DD55161793518A1040BE04289C /* AFHTTPRequestOperation.m */; };
+		DFC29AA19504EF95C8902348017273A8 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C04022B3743F94D6272F17BC9AD760EB /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E13F5F9A8FD28C1DDCC3AAF3A778B436 /* GDataXML_HTML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C1B05F17731FB79A85503B12D5F140 /* GDataXML_HTML.framework */; };
-		E3998CCC046A80C9211440749CA6FA1F /* PicoSOAPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 53E46676B7E2E8FBC630F1DCA616D7ED /* PicoSOAPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7FA21C38D6A1CB113BE2DA22E73B845 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C332F72A806C7B04B4B83128F281C79 /* UIAlertView+AFNetworking.m */; };
-		E810F45FC31110170657F41062B605CD /* SOAP12FaultcodeEnum.m in Sources */ = {isa = PBXBuildFile; fileRef = 30043924CD34D6D0E9E07F25C03261B7 /* SOAP12FaultcodeEnum.m */; };
+		E3998CCC046A80C9211440749CA6FA1F /* PicoSOAPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DF0825BB56C257DCA6A26D4DD3F2835 /* PicoSOAPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7FA21C38D6A1CB113BE2DA22E73B845 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD703E316DF3A1FF95DD4AD24067E87 /* UIAlertView+AFNetworking.m */; };
+		E810F45FC31110170657F41062B605CD /* SOAP12FaultcodeEnum.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F931E8E5DC7901E1DC77EC2B8F3E488 /* SOAP12FaultcodeEnum.m */; };
 		EAEAFB7B18D1E49758EFAC0A89DC02A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A01AFF41A57191DD79ABC9D7285490 /* Foundation.framework */; };
-		EAF46061255D5EEB3DE0B27A11E0C97F /* GDataXML-HTML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FAFA627BE15B279F42DC59745497C8 /* GDataXML-HTML-dummy.m */; };
-		F11BC473EEC07CA5407557FEED884280 /* SOAP12Envelope.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0099C75363F4C867676E938E763AE7 /* SOAP12Envelope.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2E9945B7494E20ED7DC4720A2B8CDC9 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C3261A5BB7918F694F674729292EF6F /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3009CD67ED84A44BC23B854E9329601 /* SOAP12Header.m in Sources */ = {isa = PBXBuildFile; fileRef = E54218A731CB4127B7661A0C2326B8BE /* SOAP12Header.m */; };
-		F55BD406E6304124C7FFEAE2418CD046 /* PicoConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C7870F66C94EFDE5B5F5E50D0F7544 /* PicoConfig.m */; };
-		F7673DECA5A9B28885631BF36103936A /* PicoXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFFC4ADC6D0BED7E13FDD31356A3782 /* PicoXMLRequestOperation.m */; };
+		EAF46061255D5EEB3DE0B27A11E0C97F /* GDataXML-HTML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7EDD095B7A00443C78D6D7B061C3C2 /* GDataXML-HTML-dummy.m */; };
+		F11BC473EEC07CA5407557FEED884280 /* SOAP12Envelope.h in Headers */ = {isa = PBXBuildFile; fileRef = 53623AC118FDBD26B14F236C3B6BA2B0 /* SOAP12Envelope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2E9945B7494E20ED7DC4720A2B8CDC9 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 33A98A57AAC74C1EB904C1FE2306093F /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3009CD67ED84A44BC23B854E9329601 /* SOAP12Header.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A75B5C35276AF9E926B2616E6E971F /* SOAP12Header.m */; };
+		F55BD406E6304124C7FFEAE2418CD046 /* PicoConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1820FE1F3CF1E67158B4E3FBFF465A09 /* PicoConfig.m */; };
+		F7673DECA5A9B28885631BF36103936A /* PicoXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4211E626A2C8F6D924CE1E34634100E3 /* PicoXMLRequestOperation.m */; };
 		F7BCC0CB8DFB22AB34ECE9BC5C72DD2B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C06775C1550577DD6BA9100EEF1CF95 /* SystemConfiguration.framework */; };
-		F96355379B033320F4514495D1B81128 /* PicoNumberConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 30689632F7CA2D0B8CE47383E635F307 /* PicoNumberConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF9662F15F1A4003E60BDF39D8E24B7E /* PicoSOAPWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = DA846E3B3EA02B668B6CC654B1A19335 /* PicoSOAPWriter.m */; };
-		FFAFCCCDBDD5C1802FA84670D0134481 /* SOAP12NotUnderstoodType.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD4540EA16940DCDFA72C40BE4D59AE /* SOAP12NotUnderstoodType.m */; };
-		FFC1D9EC2ECD8BE8F5658955D44621FD /* SOAP12Subcode.m in Sources */ = {isa = PBXBuildFile; fileRef = 733039015E379E02B237DF74A67327E5 /* SOAP12Subcode.m */; };
+		F96355379B033320F4514495D1B81128 /* PicoNumberConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 300D54F8E13C061F66A39FAAE1F906AE /* PicoNumberConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF9662F15F1A4003E60BDF39D8E24B7E /* PicoSOAPWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4588F8FAFF83F63FBE67D39028C646B6 /* PicoSOAPWriter.m */; };
+		FFAFCCCDBDD5C1802FA84670D0134481 /* SOAP12NotUnderstoodType.m in Sources */ = {isa = PBXBuildFile; fileRef = B74C49796F8D63AD50AC16CF57D656AF /* SOAP12NotUnderstoodType.m */; };
+		FFC1D9EC2ECD8BE8F5658955D44621FD /* SOAP12Subcode.m in Sources */ = {isa = PBXBuildFile; fileRef = F92A1729115545B2F30CA8C4330349CD /* SOAP12Subcode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -201,195 +201,202 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01C2567084F032D0ED7ED2F93366DDD0 /* PicoSOAPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoSOAPClient.h; path = Pod/WebService/PicoSOAPClient.h; sourceTree = "<group>"; };
-		02C86F4E64AFFB36FAAD2E360B0178B4 /* GDataXML-HTML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GDataXML-HTML.xcconfig"; sourceTree = "<group>"; };
-		0415A19E00405EC9C792F7F2010BE933 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		03D6E56B1B8C20C8CBC6299C42DBF6CF /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		04D576C57A1A0411DA8EFD2057D44508 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		0709681CE76BA162A009FAAE672E7A79 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Headers/Firebase.h; sourceTree = "<group>"; };
 		082961B2F56DA97D161799E54F778BAD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		098E7925649005223DB78556A188FC28 /* PicoBindable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoBindable.h; path = Pod/Core/PicoBindable.h; sourceTree = "<group>"; };
-		0C332F72A806C7B04B4B83128F281C79 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
-		10BD0628E897B8626EFB6CAF82184D9E /* OrderedDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OrderedDictionary.h; path = Pod/OrderedDictionary/OrderedDictionary.h; sourceTree = "<group>"; };
+		0A21660277A9EDA58FCB31FD92C1BA43 /* PicoWritable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoWritable.h; path = Pod/Core/PicoWritable.h; sourceTree = "<group>"; };
+		0DF0825BB56C257DCA6A26D4DD3F2835 /* PicoSOAPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoSOAPRequestOperation.h; path = Pod/WebService/PicoSOAPRequestOperation.h; sourceTree = "<group>"; };
+		0E0411AE4C5051154E075AD04B8C0D6E /* PicoSOAPReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoSOAPReader.m; path = Pod/SOAP/PicoSOAPReader.m; sourceTree = "<group>"; };
 		10C1B05F17731FB79A85503B12D5F140 /* GDataXML_HTML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GDataXML_HTML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		132A13FEED5F57CBF74427669A0B76CF /* PicoKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PicoKit-prefix.pch"; sourceTree = "<group>"; };
-		138243E3F436BF2764311575B33C0AE3 /* PicoPropertySchema.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoPropertySchema.m; path = Pod/Core/Schema/PicoPropertySchema.m; sourceTree = "<group>"; };
-		148D1ADCB591F54A3A0C57F01183C26A /* PicoBindingSchema.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoBindingSchema.m; path = Pod/Core/Schema/PicoBindingSchema.m; sourceTree = "<group>"; };
+		1308EA8F7AC1C3348EFD67E022F6BCB9 /* SOAP12SupportedEnvType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP12SupportedEnvType.m; path = Pod/SOAP/SOAP12/SOAP12SupportedEnvType.m; sourceTree = "<group>"; };
+		13EA163D8A4E3A95B8442806D5EFC2A4 /* PicoConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoConfig.h; path = Pod/Core/PicoConfig.h; sourceTree = "<group>"; };
+		14C12E1EA53CF870C32DB1D05731F551 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		1820FE1F3CF1E67158B4E3FBFF465A09 /* PicoConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoConfig.m; path = Pod/Core/PicoConfig.m; sourceTree = "<group>"; };
 		19161281FF159035CE4CAECBC4DBBCF9 /* Pods-Vendoo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Vendoo.modulemap"; sourceTree = "<group>"; };
+		1A850BEF3685209C1D5AE56CD58E983D /* PicoKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PicoKit-dummy.m"; sourceTree = "<group>"; };
 		1C06775C1550577DD6BA9100EEF1CF95 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		1EC8BDEAADDFB3D63F21054F25BEB768 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
-		1F022FA2315D5E13D01DD628D7A24450 /* PicoClassSchema.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoClassSchema.h; path = Pod/Core/Schema/PicoClassSchema.h; sourceTree = "<group>"; };
-		1FFFC4ADC6D0BED7E13FDD31356A3782 /* PicoXMLRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoXMLRequestOperation.m; path = Pod/WebService/PicoXMLRequestOperation.m; sourceTree = "<group>"; };
-		20C7870F66C94EFDE5B5F5E50D0F7544 /* PicoConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoConfig.m; path = Pod/Core/PicoConfig.m; sourceTree = "<group>"; };
-		20D306583A2D6C297AEBBD7455BDFB5A /* SOAP11Detail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP11Detail.m; path = Pod/SOAP/SOAP11/SOAP11Detail.m; sourceTree = "<group>"; };
-		210B4D796754D23FF25551287BE0F31D /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		21D8FE1810CA6BC62265331470A0F68E /* PicoXMLClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoXMLClient.m; path = Pod/WebService/PicoXMLClient.m; sourceTree = "<group>"; };
-		231F4D1DC8ABC11FDFC59604234C54C7 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		1D4733FC157765226E68AD32A0CBA8C4 /* PicoSOAPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoSOAPRequestOperation.m; path = Pod/WebService/PicoSOAPRequestOperation.m; sourceTree = "<group>"; };
+		200B442FF8996516047D4BA43C67B0BD /* SOAP11Envelope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP11Envelope.m; path = Pod/SOAP/SOAP11/SOAP11Envelope.m; sourceTree = "<group>"; };
+		210F331795632D1C3F5BF17D37524ABA /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		22D30008B78B6ECFE4250AE1CCEADBA5 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Headers/Public/FIRInstanceID.h; sourceTree = "<group>"; };
 		2447F5DBEE128CAF41B98AC7FA62B9AE /* Pods-Vendoo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Vendoo-umbrella.h"; sourceTree = "<group>"; };
-		2DBA41663E3D7BB320141809CC1CA756 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		2F0099C75363F4C867676E938E763AE7 /* SOAP12Envelope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP12Envelope.h; path = Pod/SOAP/SOAP12/SOAP12Envelope.h; sourceTree = "<group>"; };
-		30043924CD34D6D0E9E07F25C03261B7 /* SOAP12FaultcodeEnum.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP12FaultcodeEnum.m; path = Pod/SOAP/SOAP12/SOAP12FaultcodeEnum.m; sourceTree = "<group>"; };
-		30689632F7CA2D0B8CE47383E635F307 /* PicoNumberConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoNumberConverter.h; path = Pod/Core/Converter/PicoNumberConverter.h; sourceTree = "<group>"; };
-		3134F2CFC239BFABB77155AD2803EFE6 /* SOAP12SupportedEnvType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP12SupportedEnvType.m; path = Pod/SOAP/SOAP12/SOAP12SupportedEnvType.m; sourceTree = "<group>"; };
+		25D7FD90D6F4667404C466150420F6F9 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		28751A0B52548B4EBFAAFD269262EE5D /* SOAP12Detail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP12Detail.h; path = Pod/SOAP/SOAP12/SOAP12Detail.h; sourceTree = "<group>"; };
+		2AEDF4305C6D5EEBAC0CB2AB64405009 /* PicoDataConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoDataConverter.h; path = Pod/Core/Converter/PicoDataConverter.h; sourceTree = "<group>"; };
+		2DEF70DD55161793518A1040BE04289C /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		2EF0D4763542C81920CBB6BAD1E7D61B /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		3003E4E786F629B3512A0AE5E8F60BF5 /* PicoConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoConverter.m; path = Pod/Core/Converter/PicoConverter.m; sourceTree = "<group>"; };
+		300D54F8E13C061F66A39FAAE1F906AE /* PicoNumberConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoNumberConverter.h; path = Pod/Core/Converter/PicoNumberConverter.h; sourceTree = "<group>"; };
+		3170F4FF3E92474EA69236FA0F165FB2 /* PicoBindingSchema.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoBindingSchema.h; path = Pod/Core/Schema/PicoBindingSchema.h; sourceTree = "<group>"; };
 		31813545634047A7300CC635B8702212 /* Pods-VendooTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VendooTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		31D7D5DEAFE868A4A4ECBE840EA26266 /* PicoConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoConstants.h; path = Pod/Core/PicoConstants.h; sourceTree = "<group>"; };
-		3362EA9538173021892AD5EDBDEF9B4D /* XMLWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMLWriter.h; path = Pod/XMLWriter/XMLWriter.h; sourceTree = "<group>"; };
+		32E75A818715E87D1A71BE3D468CFB62 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		338F6428A25EB5174503EF02107E4B59 /* SOAP12Fault.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP12Fault.h; path = Pod/SOAP/SOAP12/SOAP12Fault.h; sourceTree = "<group>"; };
+		33A98A57AAC74C1EB904C1FE2306093F /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
 		342D2D14F18FE74BB6A6CE738A0B2CB7 /* Pods-VendooUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VendooUITests.modulemap"; sourceTree = "<group>"; };
-		34B27F8D4B23B51DAA41FF3E97FD0011 /* GDataXML-HTML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GDataXML-HTML-prefix.pch"; sourceTree = "<group>"; };
 		34C62CB96E29378165F15DB1ED09D979 /* Pods-VendooTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VendooTests-frameworks.sh"; sourceTree = "<group>"; };
-		370C3551867A163835D5FC81E2CC892E /* GDataXMLNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDataXMLNode.h; path = Pod/Classes/GDataXMLNode.h; sourceTree = "<group>"; };
-		3A6329E054BE3765931C923F625033BA /* SOAP12NotUnderstoodType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP12NotUnderstoodType.h; path = Pod/SOAP/SOAP12/SOAP12NotUnderstoodType.h; sourceTree = "<group>"; };
-		3C04FF82DA8B9B30DC7B08DABB6CE2E7 /* PicoConvertable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoConvertable.h; path = Pod/Core/Converter/PicoConvertable.h; sourceTree = "<group>"; };
+		36C668D31EEB4F8B8F8D6F8C5651ED42 /* SOAP12Envelope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP12Envelope.m; path = Pod/SOAP/SOAP12/SOAP12Envelope.m; sourceTree = "<group>"; };
+		38BC154BEE06AD869828974FC8BF84B7 /* PicoXMLElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoXMLElement.h; path = Pod/Core/XMLSupport/PicoXMLElement.h; sourceTree = "<group>"; };
+		38E0F1866EB1F6CE05604BA08BE7B912 /* SOAP12SupportedEnvType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP12SupportedEnvType.h; path = Pod/SOAP/SOAP12/SOAP12SupportedEnvType.h; sourceTree = "<group>"; };
+		39104F1B3387A20F4D1EA692E7BF8B48 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		3A33473348DE7339DF724F0E1165D0BE /* PicoPropertySchema.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoPropertySchema.m; path = Pod/Core/Schema/PicoPropertySchema.m; sourceTree = "<group>"; };
+		3AB954ABD9046473A018302B0DCBE08F /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		3C8BE375E1765DAF55901B9869FA373A /* Pods-VendooUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VendooUITests-resources.sh"; sourceTree = "<group>"; };
-		3D55220EE6143009C167E71084ECBD4D /* OrderedDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OrderedDictionary.m; path = Pod/OrderedDictionary/OrderedDictionary.m; sourceTree = "<group>"; };
-		3DECD29A116FC8B288ABD073831B03CF /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		3E889A5027C532B4930F69465411A403 /* PicoCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoCache.h; path = Pod/Core/Cache/PicoCache.h; sourceTree = "<group>"; };
+		3F628FFC7B948AE07C319764FC08D2B2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F79F02B256A3D21872F98C87A3A3EF4 /* SOAP12Fault.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP12Fault.m; path = Pod/SOAP/SOAP12/SOAP12Fault.m; sourceTree = "<group>"; };
 		3FCA0B46ACD95E77B874B5D80F96479D /* Pods-VendooUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VendooUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4084B4EA24E09C9702116C3716D68363 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		427846954ECFA3C38BD92E94EFF73C76 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
-		43691A9FCB3D14495DC8FC712211D2AA /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		43C72D6FAC57AE3D5AC70797F1393723 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		455239AD00541C7CC070C36D02C51B54 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		47ADD2FD164D915946C0A85C514A74E8 /* PicoCacheEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoCacheEntry.h; path = Pod/Core/Cache/PicoCacheEntry.h; sourceTree = "<group>"; };
+		4211E626A2C8F6D924CE1E34634100E3 /* PicoXMLRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoXMLRequestOperation.m; path = Pod/WebService/PicoXMLRequestOperation.m; sourceTree = "<group>"; };
+		423144453603B0977CB07EEC534C2AC8 /* SOAP12Body.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP12Body.m; path = Pod/SOAP/SOAP12/SOAP12Body.m; sourceTree = "<group>"; };
+		42CA87680942A73DB35F87F61DE8D8AD /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		42FB38FC28A7F025F0150A733EBB7F04 /* PicoKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PicoKit.xcconfig; sourceTree = "<group>"; };
+		43323F3EC3F18997C310C4E9C35C12D0 /* PicoNumberConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoNumberConverter.m; path = Pod/Core/Converter/PicoNumberConverter.m; sourceTree = "<group>"; };
+		4588F8FAFF83F63FBE67D39028C646B6 /* PicoSOAPWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoSOAPWriter.m; path = Pod/SOAP/PicoSOAPWriter.m; sourceTree = "<group>"; };
+		4749CCFF8410865237C0E087DD8D4CA7 /* SOAP11Detail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP11Detail.h; path = Pod/SOAP/SOAP11/SOAP11Detail.h; sourceTree = "<group>"; };
+		476AE7B746B850071740AC2C4241BBFA /* GDataXMLNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDataXMLNode.m; path = Pod/Classes/GDataXMLNode.m; sourceTree = "<group>"; };
+		47B543DB180DFEADE34BFD5E8FFA2D1F /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
 		48A543CE70E5133398E8F1067F58D68C /* Pods-VendooTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VendooTests-umbrella.h"; sourceTree = "<group>"; };
-		4CD6F46E8009EA477C9E2C32ACF1AE19 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		4A5B10338440F44C90C156607DF15149 /* PicoXMLRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoXMLRequestOperation.h; path = Pod/WebService/PicoXMLRequestOperation.h; sourceTree = "<group>"; };
+		4D238B599B0477B9DA888372CB0A78B7 /* XMLWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMLWriter.m; path = Pod/XMLWriter/XMLWriter.m; sourceTree = "<group>"; };
+		4D5444B31B5FD0857CCAAFC45023CF5D /* PicoXMLReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoXMLReader.h; path = Pod/Core/PicoXMLReader.h; sourceTree = "<group>"; };
 		4D58E7F41DDEFC4928A1F0F58E051454 /* Pods-VendooTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VendooTests-dummy.m"; sourceTree = "<group>"; };
 		4D6C3EE6008EF94BEE94EF44BB21CC47 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		4DAE9643BCEDF15DF6CF6F520E86EA4E /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		4F11CAEB81ECC5851D93D3EEEE414B69 /* SOAP12UpgradeType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP12UpgradeType.h; path = Pod/SOAP/SOAP12/SOAP12UpgradeType.h; sourceTree = "<group>"; };
+		4F2447C9A33D69C13B935C995C63537E /* PicoStringConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoStringConverter.m; path = Pod/Core/Converter/PicoStringConverter.m; sourceTree = "<group>"; };
 		4F9E7DD6C25F2643B3BA5639C3BA1CF2 /* Pods-Vendoo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Vendoo-resources.sh"; sourceTree = "<group>"; };
-		4FF2094EF2002373DF40A97B16A9624A /* SOAP11Envelope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP11Envelope.h; path = Pod/SOAP/SOAP11/SOAP11Envelope.h; sourceTree = "<group>"; };
+		500D78F333608C00AA6EBE7F41C055EF /* PicoSOAPWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoSOAPWriter.h; path = Pod/SOAP/PicoSOAPWriter.h; sourceTree = "<group>"; };
 		5011CC018916D9CC4EC5D71E9A53195B /* Pods_VendooUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VendooUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		51324724A02FE64560E0FDC0CFBAFE2A /* PicoStringConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoStringConverter.h; path = Pod/Core/Converter/PicoStringConverter.h; sourceTree = "<group>"; };
-		51CA8815C76425144DFCA23145CB5B0C /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
-		53E46676B7E2E8FBC630F1DCA616D7ED /* PicoSOAPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoSOAPRequestOperation.h; path = Pod/WebService/PicoSOAPRequestOperation.h; sourceTree = "<group>"; };
+		50A0F04900E014517C15BA3C6084466F /* PicoBoolConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoBoolConverter.m; path = Pod/Core/Converter/PicoBoolConverter.m; sourceTree = "<group>"; };
+		52AEBD38E623A7BA132015C14C66DA08 /* SOAP11Header.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP11Header.m; path = Pod/SOAP/SOAP11/SOAP11Header.m; sourceTree = "<group>"; };
+		53623AC118FDBD26B14F236C3B6BA2B0 /* SOAP12Envelope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP12Envelope.h; path = Pod/SOAP/SOAP12/SOAP12Envelope.h; sourceTree = "<group>"; };
+		53FA98865717E0DFE1CF958B392C4E18 /* XMLWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMLWriter.h; path = Pod/XMLWriter/XMLWriter.h; sourceTree = "<group>"; };
 		53FB46B1753D6D1B7456DB324F174507 /* Pods_Vendoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vendoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55690D869E8DFA81226D2F127FCA90E4 /* PicoDataConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoDataConverter.m; path = Pod/Core/Converter/PicoDataConverter.m; sourceTree = "<group>"; };
+		5627B7F66C934029A5DB6CCE629BEE81 /* SOAP12Subcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP12Subcode.h; path = Pod/SOAP/SOAP12/SOAP12Subcode.h; sourceTree = "<group>"; };
 		57A5E781E0DA0CF2341FEE600C1B4E39 /* Pods-Vendoo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Vendoo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		58A1C47AC811D5C4CAA4CE9374FB14BA /* PicoWritable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoWritable.h; path = Pod/Core/PicoWritable.h; sourceTree = "<group>"; };
-		59378CE56BA43DD0A701186AD826E0E6 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		587D96A95EBF2264C005E078E0A2B4EA /* GDataXML-HTML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GDataXML-HTML.xcconfig"; sourceTree = "<group>"; };
+		598A655ADF42A886E6EFDDD153A7974A /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		59F08ECEBAF4DE8D2AD5A8B967CBE5A7 /* Pods-Vendoo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Vendoo-acknowledgements.plist"; sourceTree = "<group>"; };
 		5B75EF4922B59E4FF64F55B2A2126190 /* Pods-Vendoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vendoo.release.xcconfig"; sourceTree = "<group>"; };
-		5CA5E6447701E4EB9C083CCC69A76BE9 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
-		5DAFB848B7EB13C5136C80A1561B8958 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
-		5E8872AA4A2FD7BE965C1FEBBBF75418 /* PicoDataConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoDataConverter.h; path = Pod/Core/Converter/PicoDataConverter.h; sourceTree = "<group>"; };
-		5EE510BAA0D471BDD6B2538B98184373 /* SOAP12Subcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP12Subcode.h; path = Pod/SOAP/SOAP12/SOAP12Subcode.h; sourceTree = "<group>"; };
-		5F178C7828BC1655AB133C52D8D69F9C /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		5FB5B933C06F9CCC81AA2A9581CEB43B /* PicoCacheEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoCacheEntry.m; path = Pod/Core/Cache/PicoCacheEntry.m; sourceTree = "<group>"; };
-		60AD3CA693AB59CF691ADB3137AF6892 /* SOAP12Fault.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP12Fault.m; path = Pod/SOAP/SOAP12/SOAP12Fault.m; sourceTree = "<group>"; };
-		6121C03B9153C5D4E331C742E34071D2 /* PicoXMLElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoXMLElement.m; path = Pod/Core/XMLSupport/PicoXMLElement.m; sourceTree = "<group>"; };
-		61B019834D20B8FFAF391604871BD3F8 /* SOAP12Faultreason.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP12Faultreason.h; path = Pod/SOAP/SOAP12/SOAP12Faultreason.h; sourceTree = "<group>"; };
-		638115DB09385BBB194A51ED812D1316 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
-		63F7336BA801AB13DC0DF628C7DC812B /* SOAP11Fault.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP11Fault.h; path = Pod/SOAP/SOAP11/SOAP11Fault.h; sourceTree = "<group>"; };
+		5CD3CC4DA01460F074D74CEF495D6D38 /* SOAP11Envelope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP11Envelope.h; path = Pod/SOAP/SOAP11/SOAP11Envelope.h; sourceTree = "<group>"; };
+		5D8D4B0B77667110833FFC47157A9E75 /* SOAP12Reasontext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP12Reasontext.h; path = Pod/SOAP/SOAP12/SOAP12Reasontext.h; sourceTree = "<group>"; };
+		5E2D8506960270C17A4E6C38CE87A5AA /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		5F25E5AFAC34E87270E269BD0C302A6C /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		61CB184749E5A63806C9B0E589C0ED46 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		62BCD71C84714CDB07BE8B6F5E61BBFE /* PicoBindingSchema.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoBindingSchema.m; path = Pod/Core/Schema/PicoBindingSchema.m; sourceTree = "<group>"; };
+		62DBFC23355FAB16664861165B39E1F6 /* PicoBindable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoBindable.h; path = Pod/Core/PicoBindable.h; sourceTree = "<group>"; };
+		6398E66DAAF420ED6C538AE5529977F4 /* SOAP12Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP12Header.h; path = Pod/SOAP/SOAP12/SOAP12Header.h; sourceTree = "<group>"; };
+		643561DEC39A710B8A8A9D1BF476E3D3 /* PicoCacheEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoCacheEntry.h; path = Pod/Core/Cache/PicoCacheEntry.h; sourceTree = "<group>"; };
 		64BA55A22C314C1BD5CC9F82142B5206 /* Pods-VendooTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VendooTests-resources.sh"; sourceTree = "<group>"; };
-		67BF0C919763DE528711072D2EF9B651 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
-		69AC004A4D5324053295C901E6F58536 /* PicoConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoConverter.h; path = Pod/Core/Converter/PicoConverter.h; sourceTree = "<group>"; };
+		65A75B5C35276AF9E926B2616E6E971F /* SOAP12Header.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP12Header.m; path = Pod/SOAP/SOAP12/SOAP12Header.m; sourceTree = "<group>"; };
+		66F3888DC28B2C64A86DC3D5D97FE913 /* PicoKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PicoKit-umbrella.h"; sourceTree = "<group>"; };
 		6A57654440ECBD6CD1038E8AFFA0900E /* Pods-Vendoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Vendoo.debug.xcconfig"; sourceTree = "<group>"; };
-		6A92DEDCC3AA66A576EBF1A811F420C4 /* PicoConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoConverter.m; path = Pod/Core/Converter/PicoConverter.m; sourceTree = "<group>"; };
-		6B0BCF679277CBCB18B8EE5F448984F8 /* SOAP12Body.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP12Body.m; path = Pod/SOAP/SOAP12/SOAP12Body.m; sourceTree = "<group>"; };
-		6DBBDDD76AE29657608CBC1B1CB7B585 /* PicoSOAPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoSOAPRequestOperation.m; path = Pod/WebService/PicoSOAPRequestOperation.m; sourceTree = "<group>"; };
-		6EBDFA04E8A428845A1829DF9982EC0F /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
-		6EFF8DEF2E940633D12C992A63885E7A /* PicoConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoConstants.m; path = Pod/Core/PicoConstants.m; sourceTree = "<group>"; };
-		72016876D7B47DC3C3E3259556BBD7B9 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
-		7203BDAC4DEDF78F59E757C9C618C1A6 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AFNetworking.modulemap; sourceTree = "<group>"; };
-		723F7BADE0A4EA4DE4A81D03098EEE13 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		733039015E379E02B237DF74A67327E5 /* SOAP12Subcode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP12Subcode.m; path = Pod/SOAP/SOAP12/SOAP12Subcode.m; sourceTree = "<group>"; };
-		745110AE564E01149666A04554B7E709 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
-		764084D3967AB85C11A5FFFE5D2D3024 /* PicoPropertySchema.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoPropertySchema.h; path = Pod/Core/Schema/PicoPropertySchema.h; sourceTree = "<group>"; };
-		76FAFA627BE15B279F42DC59745497C8 /* GDataXML-HTML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GDataXML-HTML-dummy.m"; sourceTree = "<group>"; };
-		7A913E9C91E8C41D8B688FB313CDAF60 /* PicoXMLReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoXMLReader.m; path = Pod/Core/PicoXMLReader.m; sourceTree = "<group>"; };
-		7B9D93804D8AB633A25B5982ED5E3E00 /* SOAP11Body.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP11Body.h; path = Pod/SOAP/SOAP11/SOAP11Body.h; sourceTree = "<group>"; };
-		7D6A0509165A5EC5120DB24E5A4FDC0D /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		6A889FEBF5EBB5F2AD88AF2D38EBF947 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		6B7EDD095B7A00443C78D6D7B061C3C2 /* GDataXML-HTML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GDataXML-HTML-dummy.m"; sourceTree = "<group>"; };
+		7034CC8AA579C08A8F17AD7FCF866FAA /* PicoXMLClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoXMLClient.m; path = Pod/WebService/PicoXMLClient.m; sourceTree = "<group>"; };
+		71FF181707D1C704A6F9045569471D6E /* SOAP12Faultcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP12Faultcode.h; path = Pod/SOAP/SOAP12/SOAP12Faultcode.h; sourceTree = "<group>"; };
+		7233E35E7154AD3A1CFC1657E747ABD0 /* SOAP12Faultreason.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP12Faultreason.h; path = Pod/SOAP/SOAP12/SOAP12Faultreason.h; sourceTree = "<group>"; };
+		7721832C4979460884DFE75D5248D094 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		79C8C238DF4982D3BC1810EA06D97D72 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		7B0371CF0E8C751E84C1533B28D3358B /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		7D4050E96A5B7A4A46F73C1F9F20DC30 /* PicoXMLElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoXMLElement.m; path = Pod/Core/XMLSupport/PicoXMLElement.m; sourceTree = "<group>"; };
 		7DCCDFA1452F66D49B71C642EDD50406 /* Pods-VendooTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VendooTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7E2783BFC3EE592D41AAEFE93C7A48B7 /* Pods-VendooUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VendooUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E381A61A7D44EE24898716E8448BC46 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		7EBEA79B4C2F3D8E52CF265ABC735AB5 /* Pods-Vendoo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Vendoo-dummy.m"; sourceTree = "<group>"; };
-		7F76F07096DAFADC39C37900992F673B /* GDataXMLNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDataXMLNode.m; path = Pod/Classes/GDataXMLNode.m; sourceTree = "<group>"; };
-		86B489E85EDF03229DD5EF39D661B95F /* PicoDateConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoDateConverter.m; path = Pod/Core/Converter/PicoDateConverter.m; sourceTree = "<group>"; };
-		871C16D97FB10AFC4AFE24AA6F8D3070 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		8C3261A5BB7918F694F674729292EF6F /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
-		8D0CCC26AE4615E9ADD93639F8FA6F5C /* XMLWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMLWriter.m; path = Pod/XMLWriter/XMLWriter.m; sourceTree = "<group>"; };
-		8EEA8B73E819E1A319B720B2F027D8E1 /* PicoCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoCache.h; path = Pod/Core/Cache/PicoCache.h; sourceTree = "<group>"; };
-		91AC7D6ACA7F3B7625E34C29505A6D2F /* PicoXMLRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoXMLRequestOperation.h; path = Pod/WebService/PicoXMLRequestOperation.h; sourceTree = "<group>"; };
+		8039538A6BEC0DE86E184C6798828DA8 /* SOAP12Reasontext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP12Reasontext.m; path = Pod/SOAP/SOAP12/SOAP12Reasontext.m; sourceTree = "<group>"; };
+		85531C5946746E8481E8282A1F34B4CC /* SOAP12Body.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP12Body.h; path = Pod/SOAP/SOAP12/SOAP12Body.h; sourceTree = "<group>"; };
+		85F430D8F5990061F01425AC280A575F /* SOAP11Fault.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP11Fault.m; path = Pod/SOAP/SOAP11/SOAP11Fault.m; sourceTree = "<group>"; };
+		88E1D1F9F0FCEBF4BD644535FF31847E /* PicoKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PicoKit-prefix.pch"; sourceTree = "<group>"; };
+		8928ECF96714F713390B5FCC05D89289 /* PicoCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoCache.m; path = Pod/Core/Cache/PicoCache.m; sourceTree = "<group>"; };
+		8A54EC393866ABA861FACF8FCD58E513 /* PicoPropertySchema.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoPropertySchema.h; path = Pod/Core/Schema/PicoPropertySchema.h; sourceTree = "<group>"; };
+		8C8086B116F55A5482F44E9CBAFF6155 /* PicoXMLWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoXMLWriter.m; path = Pod/Core/PicoXMLWriter.m; sourceTree = "<group>"; };
+		8E23DC06ABD985574A5D610E7AFF9035 /* SOAP12Detail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP12Detail.m; path = Pod/SOAP/SOAP12/SOAP12Detail.m; sourceTree = "<group>"; };
+		901F9CB0EBC0E12A1B8DD27F1E18F3DE /* PicoXMLWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoXMLWriter.h; path = Pod/Core/PicoXMLWriter.h; sourceTree = "<group>"; };
+		91352F40D4E9D8E1476BB2CB919CFF98 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		9211C98F051B7C9D828B7EF13366085F /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		927486016B5FD0B1B4BD8D7BFD379DAC /* GDataXML-HTML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GDataXML-HTML-prefix.pch"; sourceTree = "<group>"; };
 		92AD10E370437A3B99BD3B82AF4F13ED /* Pods-VendooUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VendooUITests.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94604F224B7271633876B766C32832AA /* SOAP12UpgradeType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP12UpgradeType.m; path = Pod/SOAP/SOAP12/SOAP12UpgradeType.m; sourceTree = "<group>"; };
-		94BECC6B87E1AC1FC868121CA6688E7F /* PicoClassSchema.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoClassSchema.m; path = Pod/Core/Schema/PicoClassSchema.m; sourceTree = "<group>"; };
+		9447435902209CF09569BB59F9ACF664 /* SOAP11Body.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP11Body.h; path = Pod/SOAP/SOAP11/SOAP11Body.h; sourceTree = "<group>"; };
 		9573180AC9AF83B96C2E265127D45476 /* GDataXML_HTML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GDataXML_HTML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		95E02AC300CCE70E6D037A5146528BED /* PicoXMLWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoXMLWriter.m; path = Pod/Core/PicoXMLWriter.m; sourceTree = "<group>"; };
-		96A9A95B1B37284EB3649B9700EB20F0 /* SOAP12FaultcodeEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP12FaultcodeEnum.h; path = Pod/SOAP/SOAP12/SOAP12FaultcodeEnum.h; sourceTree = "<group>"; };
-		979ABA97951E3FEDC5345F555FB1ED00 /* SOAP12Detail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP12Detail.h; path = Pod/SOAP/SOAP12/SOAP12Detail.h; sourceTree = "<group>"; };
-		99145C08C4FB05EA6555BA9D5D7D069B /* PicoSOAPReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoSOAPReader.m; path = Pod/SOAP/PicoSOAPReader.m; sourceTree = "<group>"; };
-		9B0D5F0DF7CC1BADB9684628068DC994 /* SOAP12Body.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP12Body.h; path = Pod/SOAP/SOAP12/SOAP12Body.h; sourceTree = "<group>"; };
-		9C44319040FC132262083F8875220725 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		9C53D322DB43E33BC4063FF12C5F48B9 /* SOAP12Reasontext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP12Reasontext.h; path = Pod/SOAP/SOAP12/SOAP12Reasontext.h; sourceTree = "<group>"; };
-		9DD289BC29C47E1B48BC2727AC1C437D /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
-		9EDB607815CCCAF2DC8FC9AFC866D634 /* GDataXML-HTML.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "GDataXML-HTML.modulemap"; sourceTree = "<group>"; };
+		969C49C4493667D3B478E262AFF82D93 /* PicoConvertable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoConvertable.h; path = Pod/Core/Converter/PicoConvertable.h; sourceTree = "<group>"; };
+		97FED7B6DE77CEADA93DD008EAD6D865 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		9AE6EF64E5C1A6FE365D6A779FD903E6 /* PicoConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoConstants.h; path = Pod/Core/PicoConstants.h; sourceTree = "<group>"; };
+		9EE6307382975ED999383D8386B12258 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F4357669E3447C7453FFA688442C4EB /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		9F931E8E5DC7901E1DC77EC2B8F3E488 /* SOAP12FaultcodeEnum.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP12FaultcodeEnum.m; path = Pod/SOAP/SOAP12/SOAP12FaultcodeEnum.m; sourceTree = "<group>"; };
+		9F9CEF5D61284D6B46AB0778BAF01072 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		A1748DD6A43645DBB240D06557D9A85C /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		A1CF82F0649719EE753F8DCF8B86250B /* PicoDateConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoDateConverter.m; path = Pod/Core/Converter/PicoDateConverter.m; sourceTree = "<group>"; };
+		A3100F42BCC94D2159C4D0C62C593AF9 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		A326A276CEDE87C2080F6B79A441DC67 /* PicoSOAPReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoSOAPReader.h; path = Pod/SOAP/PicoSOAPReader.h; sourceTree = "<group>"; };
+		A34B4ACA716B7B6CF693402086B8C5FA /* GDataXMLNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDataXMLNode.h; path = Pod/Classes/GDataXMLNode.h; sourceTree = "<group>"; };
+		A3C4059E9B123641BD379495BCE5FAD1 /* SOAP12UpgradeType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP12UpgradeType.m; path = Pod/SOAP/SOAP12/SOAP12UpgradeType.m; sourceTree = "<group>"; };
 		A4751F0213EF5963575881BE33F69C17 /* Pods-Vendoo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Vendoo-frameworks.sh"; sourceTree = "<group>"; };
-		A4D9D56C238CA9A38F0C3077E7DB2642 /* PicoBindingSchema.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoBindingSchema.h; path = Pod/Core/Schema/PicoBindingSchema.h; sourceTree = "<group>"; };
 		A56E1A33D3D9ED85AE740818A3D4CD49 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6C23D89283525F53B609C1034735D33 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		AA9967BFEB2387763F4459FD300C09FE /* SOAP12FaultcodeEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP12FaultcodeEnum.h; path = Pod/SOAP/SOAP12/SOAP12FaultcodeEnum.h; sourceTree = "<group>"; };
+		ABD703E316DF3A1FF95DD4AD24067E87 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
 		ABF51999706C0856A3D501206CDDFE4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		ADC11D1F446961C29239BF3E298C0B7D /* PicoStringConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoStringConverter.m; path = Pod/Core/Converter/PicoStringConverter.m; sourceTree = "<group>"; };
-		AE5929EBA51032CE539858FC4069C939 /* SOAP11Header.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP11Header.m; path = Pod/SOAP/SOAP11/SOAP11Header.m; sourceTree = "<group>"; };
-		AE9A282A28D6946D255D0CEEEBE712F0 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		AF79BC0792545A7FE5B98E8EE5A6BAE4 /* Pods-VendooUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VendooUITests-umbrella.h"; sourceTree = "<group>"; };
-		B43F34E8150FBC2E62C6253F0A3AB69F /* PicoSOAPReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoSOAPReader.h; path = Pod/SOAP/PicoSOAPReader.h; sourceTree = "<group>"; };
-		B5D2B455E0ACA9D345731D0AC3A57E72 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		B623577D53F79BAFA170B863D64B2F73 /* PicoCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoCache.m; path = Pod/Core/Cache/PicoCache.m; sourceTree = "<group>"; };
+		B096D803886239B58786E4C474AA1F5E /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		B116BDFB13018F1EA946A68157FF342D /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		B4BB3B6654D26CB6271545C09706BB4D /* SOAP11Body.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP11Body.m; path = Pod/SOAP/SOAP11/SOAP11Body.m; sourceTree = "<group>"; };
+		B74C49796F8D63AD50AC16CF57D656AF /* SOAP12NotUnderstoodType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP12NotUnderstoodType.m; path = Pod/SOAP/SOAP12/SOAP12NotUnderstoodType.m; sourceTree = "<group>"; };
 		B81A4564D7CB6658588D570BF32C26EF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		B86D51F51FBA591C5B810A2F43C81C20 /* Pods-VendooUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VendooUITests-frameworks.sh"; sourceTree = "<group>"; };
-		B9D1060F8BB40DEF8479E69508FA704B /* SOAP11Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP11Header.h; path = Pod/SOAP/SOAP11/SOAP11Header.h; sourceTree = "<group>"; };
-		BA1D5E1095DFBED0F10F2654B1B27BF4 /* PicoReadable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoReadable.h; path = Pod/Core/PicoReadable.h; sourceTree = "<group>"; };
-		BC26C2B60784CD420C1CE71175D813AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD012CA166D51A4E1F0798D56ACAC9EC /* PicoSOAPWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoSOAPWriter.h; path = Pod/SOAP/PicoSOAPWriter.h; sourceTree = "<group>"; };
+		B9FCA89C6EED881C8B468E3291EC38A4 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
 		BD08F133D8EC15B232B755CA87C1AB19 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD2224134F411D0862DD28293FC569D6 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
 		BD4092841A2D1EC9A6FF671A4F262686 /* Pods-VendooTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VendooTests.modulemap"; sourceTree = "<group>"; };
-		BE6A9E0600B2CEDBA95A9DC72FF0B6C1 /* SOAP12Faultcode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP12Faultcode.m; path = Pod/SOAP/SOAP12/SOAP12Faultcode.m; sourceTree = "<group>"; };
-		BFC4928FD73026E2AA21B8F564B235CD /* SOAP11Envelope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP11Envelope.m; path = Pod/SOAP/SOAP11/SOAP11Envelope.m; sourceTree = "<group>"; };
-		BFD049F1EA8CA39B4D7B3A1B8182D4EB /* SOAP12Faultreason.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP12Faultreason.m; path = Pod/SOAP/SOAP12/SOAP12Faultreason.m; sourceTree = "<group>"; };
-		C02B4AB225DA58C635E5A51187D951A0 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		C0FFEFCB21A4B05C927827346FF874DD /* SOAP12Faultcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP12Faultcode.h; path = Pod/SOAP/SOAP12/SOAP12Faultcode.h; sourceTree = "<group>"; };
+		BF6544EA116AB8FC5061772DDC058B5F /* PicoXMLClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoXMLClient.h; path = Pod/WebService/PicoXMLClient.h; sourceTree = "<group>"; };
+		C04022B3743F94D6272F17BC9AD760EB /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		C1B45227C657FA3DF2CDA5AB934FD182 /* PicoConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoConstants.m; path = Pod/Core/PicoConstants.m; sourceTree = "<group>"; };
 		C1DCD9D574E839C1D3ECFE069B067D51 /* PicoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PicoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7EF09B046150571D7891E04A25A4E86 /* PicoKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PicoKit.xcconfig; sourceTree = "<group>"; };
-		C826B90D43D460E5829A09E6AA8D55EF /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		C82D5F999289EA15153EA6C3A6D9B83C /* PicoKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PicoKit.modulemap; sourceTree = "<group>"; };
-		C88D2332190AE02F18972E6365B65CCB /* PicoBoolConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoBoolConverter.h; path = Pod/Core/Converter/PicoBoolConverter.h; sourceTree = "<group>"; };
-		C925A25F2182E5240629C5CEADB18EDF /* PicoXMLReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoXMLReader.h; path = Pod/Core/PicoXMLReader.h; sourceTree = "<group>"; };
-		CBC69EDB7F90A6F8EF37863A89F5EA1D /* PicoNumberConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoNumberConverter.m; path = Pod/Core/Converter/PicoNumberConverter.m; sourceTree = "<group>"; };
-		CC5B40E52C8E40166F896597BA834AC2 /* PicoKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PicoKit-umbrella.h"; sourceTree = "<group>"; };
+		C4072524A537DA7884A51C35C7F78A11 /* PicoXMLReader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoXMLReader.m; path = Pod/Core/PicoXMLReader.m; sourceTree = "<group>"; };
 		CC77D8F0FF7989D8A20AF358B7DCC72A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CCD8EA4CC2F4CECC02CC092D12B37E92 /* PicoXMLClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoXMLClient.h; path = Pod/WebService/PicoXMLClient.h; sourceTree = "<group>"; };
-		CD3072703250A464EC8B1867E7DC2A35 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D059429AC7558EE76CFD38A3267D349F /* PicoSOAPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoSOAPClient.m; path = Pod/WebService/PicoSOAPClient.m; sourceTree = "<group>"; };
-		D2C22D1DDAAE277BE7658E960FC1EC2D /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		D2DB57F6D8D5980A65DB299E91F3C3A2 /* SOAP11Fault.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP11Fault.m; path = Pod/SOAP/SOAP11/SOAP11Fault.m; sourceTree = "<group>"; };
-		D40F86CD51211AA8C62B000F7A392FDB /* SOAP12UpgradeType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP12UpgradeType.h; path = Pod/SOAP/SOAP12/SOAP12UpgradeType.h; sourceTree = "<group>"; };
 		D6584D06226BBE65D2C1B72854FAA452 /* Pods-VendooTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VendooTests.release.xcconfig"; sourceTree = "<group>"; };
-		D7080C09F8B3C8128AFC9E83635B004D /* SOAP12Detail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP12Detail.m; path = Pod/SOAP/SOAP12/SOAP12Detail.m; sourceTree = "<group>"; };
-		D87450CF1D08FE3AF1D50C930A26766F /* PicoDateConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoDateConverter.h; path = Pod/Core/Converter/PicoDateConverter.h; sourceTree = "<group>"; };
-		D8B3BA0EA22E67BB561C224E2050C7A3 /* SOAP12Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP12Header.h; path = Pod/SOAP/SOAP12/SOAP12Header.h; sourceTree = "<group>"; };
+		D818BF5E5410F3DD137E284DE165F718 /* SOAP11Detail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP11Detail.m; path = Pod/SOAP/SOAP11/SOAP11Detail.m; sourceTree = "<group>"; };
 		D915024EEE353DF7DDD35C6E1FE48D26 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA0551535C161FA6C55748D6903D8D21 /* PicoKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PicoKit-dummy.m"; sourceTree = "<group>"; };
-		DA846E3B3EA02B668B6CC654B1A19335 /* PicoSOAPWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoSOAPWriter.m; path = Pod/SOAP/PicoSOAPWriter.m; sourceTree = "<group>"; };
-		DAB010AF1E902FF28C45EBD1CC2C37E9 /* SOAP11Detail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP11Detail.h; path = Pod/SOAP/SOAP11/SOAP11Detail.h; sourceTree = "<group>"; };
-		DD6193BD416056834746D0A031025D48 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E0FC043CC1D63F99E77FBD5BFAFCEBC7 /* PicoXMLElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoXMLElement.h; path = Pod/Core/XMLSupport/PicoXMLElement.h; sourceTree = "<group>"; };
-		E252C34D195CB35FBB57F4205878A4BE /* SOAP12Reasontext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP12Reasontext.m; path = Pod/SOAP/SOAP12/SOAP12Reasontext.m; sourceTree = "<group>"; };
-		E3B70D1FAE6FA017A6BC4A688E7D52CD /* SOAP11Body.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP11Body.m; path = Pod/SOAP/SOAP11/SOAP11Body.m; sourceTree = "<group>"; };
-		E54218A731CB4127B7661A0C2326B8BE /* SOAP12Header.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP12Header.m; path = Pod/SOAP/SOAP12/SOAP12Header.m; sourceTree = "<group>"; };
-		E72198AAE96563BD64D291ED6F1016A8 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		D9D14D430E46E9E88565F6BA423FBA88 /* PicoReadable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoReadable.h; path = Pod/Core/PicoReadable.h; sourceTree = "<group>"; };
+		DA04BF85093538ECA5F320B436EB8E89 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		DECF54BFB8B8DB771046002934D3A7A8 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		DFF2D97F9B419D4C47DC95D06A859EA7 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		E003EA34FC02ABD78E3135413DA9BF83 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E2769182A0B615954FAF8426C83948 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		E40726F68DB75E9C4D2A5F38F3952E1A /* SOAP12Faultreason.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP12Faultreason.m; path = Pod/SOAP/SOAP12/SOAP12Faultreason.m; sourceTree = "<group>"; };
+		E4D6DF2CAF05D7A235B746A3D843F01B /* PicoSOAPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoSOAPClient.h; path = Pod/WebService/PicoSOAPClient.h; sourceTree = "<group>"; };
+		E5290ACD66677175FCEE26FD79DDD01E /* PicoBoolConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoBoolConverter.h; path = Pod/Core/Converter/PicoBoolConverter.h; sourceTree = "<group>"; };
+		E54F6C4981A1851B09E22E55657BEB8F /* PicoDateConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoDateConverter.h; path = Pod/Core/Converter/PicoDateConverter.h; sourceTree = "<group>"; };
+		E55C0A3E2128C89C47B0ABE898AA3774 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		E766D77F443C5C390B979C8F7238117C /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		E7BFF5EF7790E1256405211421EDAF70 /* PicoConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoConverter.h; path = Pod/Core/Converter/PicoConverter.h; sourceTree = "<group>"; };
+		E7E4E2B3BD9AF12D721C887D8C1BCA8B /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		E870D826781CE652F4FF0FA34C714313 /* Pods-VendooUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VendooUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E920CE18C449FD109FDC382F355B6BDF /* Pods_VendooTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VendooTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAB930218C4D9EBBA5544E3A78EA1DE3 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		ECD4540EA16940DCDFA72C40BE4D59AE /* SOAP12NotUnderstoodType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP12NotUnderstoodType.m; path = Pod/SOAP/SOAP12/SOAP12NotUnderstoodType.m; sourceTree = "<group>"; };
 		ED1D2220615A13294FD6AEC63793DA67 /* Pods-VendooUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VendooUITests-dummy.m"; sourceTree = "<group>"; };
+		ED906269CCE57DDE25B8E28D27279C06 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		EEA8E8F7E3F247A6C23E1BC6EF9E1725 /* PicoStringConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoStringConverter.h; path = Pod/Core/Converter/PicoStringConverter.h; sourceTree = "<group>"; };
+		EF8742673FCB66600C20D2C83598C06D /* SOAP11Fault.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP11Fault.h; path = Pod/SOAP/SOAP11/SOAP11Fault.h; sourceTree = "<group>"; };
+		F06EEB1B0B3C59AA6B332EBDE7BCCCB9 /* GDataXML-HTML.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "GDataXML-HTML.modulemap"; sourceTree = "<group>"; };
+		F08D698FA86A207A86297538A35A029B /* SOAP11Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP11Header.h; path = Pod/SOAP/SOAP11/SOAP11Header.h; sourceTree = "<group>"; };
 		F0A01AFF41A57191DD79ABC9D7285490 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F25D61FEA62DFCA2769492EFD02847F2 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		F3D9A201EDDC5EFD3E75A8278A388A5A /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
-		F437A4D9088226CC2506F2C83B892937 /* PicoDataConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoDataConverter.m; path = Pod/Core/Converter/PicoDataConverter.m; sourceTree = "<group>"; };
-		F43A4DA2AA6B7AAFB25596E0EB0B27D1 /* SOAP12Envelope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP12Envelope.m; path = Pod/SOAP/SOAP12/SOAP12Envelope.m; sourceTree = "<group>"; };
-		F5F2B952197DEEA8C92ABC117964775F /* SOAP12SupportedEnvType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP12SupportedEnvType.h; path = Pod/SOAP/SOAP12/SOAP12SupportedEnvType.h; sourceTree = "<group>"; };
-		F8445BAE2C735F6B910E42E1FF9FF610 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		F0B683C7F548100E9532C45A31563038 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		F234B925AA6872541007A60A3E983B73 /* PicoSOAPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoSOAPClient.m; path = Pod/WebService/PicoSOAPClient.m; sourceTree = "<group>"; };
+		F501CFC3784B7527050CC70DDA4CC209 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		F539ED135C0480F66225B189D78A3417 /* OrderedDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OrderedDictionary.h; path = Pod/OrderedDictionary/OrderedDictionary.h; sourceTree = "<group>"; };
+		F5628AA9687F9C5F9802513691CCA257 /* OrderedDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OrderedDictionary.m; path = Pod/OrderedDictionary/OrderedDictionary.m; sourceTree = "<group>"; };
+		F5F300A87EDF200B00A6BFAAB19108B5 /* PicoCacheEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoCacheEntry.m; path = Pod/Core/Cache/PicoCacheEntry.m; sourceTree = "<group>"; };
+		F8987D924C81E731D9A2255813A6FA07 /* PicoClassSchema.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoClassSchema.h; path = Pod/Core/Schema/PicoClassSchema.h; sourceTree = "<group>"; };
+		F8F7871262A1467F5DC99ABCCD8C79DD /* PicoClassSchema.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoClassSchema.m; path = Pod/Core/Schema/PicoClassSchema.m; sourceTree = "<group>"; };
+		F92A1729115545B2F30CA8C4330349CD /* SOAP12Subcode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP12Subcode.m; path = Pod/SOAP/SOAP12/SOAP12Subcode.m; sourceTree = "<group>"; };
 		FA1DE33E39EEFE744A0564A8962CE927 /* Pods-VendooTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VendooTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FA4274B0B18C044CF695057D4E3B6419 /* PicoXMLWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoXMLWriter.h; path = Pod/Core/PicoXMLWriter.h; sourceTree = "<group>"; };
-		FADE1B70C8BC9EA51F1000530B8B1D95 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		FC6B66DB918EF085489A7563AB207079 /* PicoBoolConverter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PicoBoolConverter.m; path = Pod/Core/Converter/PicoBoolConverter.m; sourceTree = "<group>"; };
+		FA992559AA1DBC9A083460ED306F4EE1 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		FAB73BCC0128AF3DDF755035B21153B5 /* SOAP12NotUnderstoodType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP12NotUnderstoodType.h; path = Pod/SOAP/SOAP12/SOAP12NotUnderstoodType.h; sourceTree = "<group>"; };
+		FBC3D33F9B2684B61CFCEF11DEB034E8 /* PicoKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PicoKit.modulemap; sourceTree = "<group>"; };
 		FD042EC572F10CF1D6B96B94CE4963CC /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD1EA74DB0C8168AB11D94C193EEBE21 /* PicoConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PicoConfig.h; path = Pod/Core/PicoConfig.h; sourceTree = "<group>"; };
-		FFB0121F7557174A2A63366599068120 /* SOAP12Fault.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SOAP12Fault.h; path = Pod/SOAP/SOAP12/SOAP12Fault.h; sourceTree = "<group>"; };
+		FF18B38D9C2DA9A4ACA299923A13C309 /* SOAP12Faultcode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SOAP12Faultcode.m; path = Pod/SOAP/SOAP12/SOAP12Faultcode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -453,6 +460,130 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03AB62894AD6181D755321DA5D5C5C2F /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				66D075E70B713B4E60265E37A5D617D7 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		03B66D10345760F2BC58F90BA173574B /* PicoKit */ = {
+			isa = PBXGroup;
+			children = (
+				66E5221654BEA5ED8BBC1A9A987D96FD /* Core */,
+				F2235E241A458E629CB2CA250F4A72C1 /* OrderedDictionary */,
+				0BEC2574CD151663A11D27EA0975009E /* Soap */,
+				118DA033BCB0B0F7F85D5583056056C9 /* Support Files */,
+				86C7229DBD21B2F02F68BF86A30FAF9A /* WebService */,
+				1D2DFB4D8AE6ACC909D3B7A76398D902 /* XMLWriter */,
+			);
+			path = PicoKit;
+			sourceTree = "<group>";
+		};
+		04E1BE140EADF9535F1FBCA0DE116D6E /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				04D576C57A1A0411DA8EFD2057D44508 /* AFNetworking.h */,
+				968286FD8DCA8D38AB75A20FAD79D138 /* NSURLConnection */,
+				E2623FC02F81E76FA31464A6FC11A95A /* NSURLSession */,
+				19BF376ADAE8D399588C92E22FF03606 /* Reachability */,
+				C255AF659AA54F12B0AAED5FB8A82699 /* Security */,
+				15849AFE5EEC82C25F2EEF8ED0E7A254 /* Serialization */,
+				FE986ED6C8281DF4BB1185DE501F2515 /* Support Files */,
+				D5D012BC8F3906935DC8DA8A288A5E18 /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		0BEC2574CD151663A11D27EA0975009E /* Soap */ = {
+			isa = PBXGroup;
+			children = (
+				A326A276CEDE87C2080F6B79A441DC67 /* PicoSOAPReader.h */,
+				0E0411AE4C5051154E075AD04B8C0D6E /* PicoSOAPReader.m */,
+				500D78F333608C00AA6EBE7F41C055EF /* PicoSOAPWriter.h */,
+				4588F8FAFF83F63FBE67D39028C646B6 /* PicoSOAPWriter.m */,
+				9447435902209CF09569BB59F9ACF664 /* SOAP11Body.h */,
+				B4BB3B6654D26CB6271545C09706BB4D /* SOAP11Body.m */,
+				4749CCFF8410865237C0E087DD8D4CA7 /* SOAP11Detail.h */,
+				D818BF5E5410F3DD137E284DE165F718 /* SOAP11Detail.m */,
+				5CD3CC4DA01460F074D74CEF495D6D38 /* SOAP11Envelope.h */,
+				200B442FF8996516047D4BA43C67B0BD /* SOAP11Envelope.m */,
+				EF8742673FCB66600C20D2C83598C06D /* SOAP11Fault.h */,
+				85F430D8F5990061F01425AC280A575F /* SOAP11Fault.m */,
+				F08D698FA86A207A86297538A35A029B /* SOAP11Header.h */,
+				52AEBD38E623A7BA132015C14C66DA08 /* SOAP11Header.m */,
+				85531C5946746E8481E8282A1F34B4CC /* SOAP12Body.h */,
+				423144453603B0977CB07EEC534C2AC8 /* SOAP12Body.m */,
+				28751A0B52548B4EBFAAFD269262EE5D /* SOAP12Detail.h */,
+				8E23DC06ABD985574A5D610E7AFF9035 /* SOAP12Detail.m */,
+				53623AC118FDBD26B14F236C3B6BA2B0 /* SOAP12Envelope.h */,
+				36C668D31EEB4F8B8F8D6F8C5651ED42 /* SOAP12Envelope.m */,
+				338F6428A25EB5174503EF02107E4B59 /* SOAP12Fault.h */,
+				3F79F02B256A3D21872F98C87A3A3EF4 /* SOAP12Fault.m */,
+				71FF181707D1C704A6F9045569471D6E /* SOAP12Faultcode.h */,
+				FF18B38D9C2DA9A4ACA299923A13C309 /* SOAP12Faultcode.m */,
+				AA9967BFEB2387763F4459FD300C09FE /* SOAP12FaultcodeEnum.h */,
+				9F931E8E5DC7901E1DC77EC2B8F3E488 /* SOAP12FaultcodeEnum.m */,
+				7233E35E7154AD3A1CFC1657E747ABD0 /* SOAP12Faultreason.h */,
+				E40726F68DB75E9C4D2A5F38F3952E1A /* SOAP12Faultreason.m */,
+				6398E66DAAF420ED6C538AE5529977F4 /* SOAP12Header.h */,
+				65A75B5C35276AF9E926B2616E6E971F /* SOAP12Header.m */,
+				FAB73BCC0128AF3DDF755035B21153B5 /* SOAP12NotUnderstoodType.h */,
+				B74C49796F8D63AD50AC16CF57D656AF /* SOAP12NotUnderstoodType.m */,
+				5D8D4B0B77667110833FFC47157A9E75 /* SOAP12Reasontext.h */,
+				8039538A6BEC0DE86E184C6798828DA8 /* SOAP12Reasontext.m */,
+				5627B7F66C934029A5DB6CCE629BEE81 /* SOAP12Subcode.h */,
+				F92A1729115545B2F30CA8C4330349CD /* SOAP12Subcode.m */,
+				38E0F1866EB1F6CE05604BA08BE7B912 /* SOAP12SupportedEnvType.h */,
+				1308EA8F7AC1C3348EFD67E022F6BCB9 /* SOAP12SupportedEnvType.m */,
+				4F11CAEB81ECC5851D93D3EEEE414B69 /* SOAP12UpgradeType.h */,
+				A3C4059E9B123641BD379495BCE5FAD1 /* SOAP12UpgradeType.m */,
+			);
+			name = Soap;
+			sourceTree = "<group>";
+		};
+		118DA033BCB0B0F7F85D5583056056C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F628FFC7B948AE07C319764FC08D2B2 /* Info.plist */,
+				FBC3D33F9B2684B61CFCEF11DEB034E8 /* PicoKit.modulemap */,
+				42FB38FC28A7F025F0150A733EBB7F04 /* PicoKit.xcconfig */,
+				1A850BEF3685209C1D5AE56CD58E983D /* PicoKit-dummy.m */,
+				88E1D1F9F0FCEBF4BD644535FF31847E /* PicoKit-prefix.pch */,
+				66F3888DC28B2C64A86DC3D5D97FE913 /* PicoKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PicoKit";
+			sourceTree = "<group>";
+		};
+		12B7A048D12FBDE4A16F7BD206D62BA5 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				226FB980952BFC00754D1F0EB79F79EC /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		15849AFE5EEC82C25F2EEF8ED0E7A254 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				210F331795632D1C3F5BF17D37524ABA /* AFURLRequestSerialization.h */,
+				A6C23D89283525F53B609C1034735D33 /* AFURLRequestSerialization.m */,
+				3AB954ABD9046473A018302B0DCBE08F /* AFURLResponseSerialization.h */,
+				E7E4E2B3BD9AF12D721C887D8C1BCA8B /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		167E217A5702C10C499C1EAAE5566D18 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				0709681CE76BA162A009FAAE672E7A79 /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
 		1969DB7011D9EA98995A08C202E8C6CD /* Pods-Vendoo */ = {
 			isa = PBXGroup;
 			children = (
@@ -471,57 +602,56 @@
 			path = "Target Support Files/Pods-Vendoo";
 			sourceTree = "<group>";
 		};
-		1CF52CB5D80D1CDDF05C73DF60E71D6C /* OrderedDictionary */ = {
+		19BF376ADAE8D399588C92E22FF03606 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				10BD0628E897B8626EFB6CAF82184D9E /* OrderedDictionary.h */,
-				3D55220EE6143009C167E71084ECBD4D /* OrderedDictionary.m */,
+				7E381A61A7D44EE24898716E8448BC46 /* AFNetworkReachabilityManager.h */,
+				598A655ADF42A886E6EFDDD153A7974A /* AFNetworkReachabilityManager.m */,
 			);
-			name = OrderedDictionary;
+			name = Reachability;
 			sourceTree = "<group>";
 		};
-		47436E6DBEA52ACE508840CF1FF19B5A /* UIKit */ = {
+		1D2DFB4D8AE6ACC909D3B7A76398D902 /* XMLWriter */ = {
 			isa = PBXGroup;
 			children = (
-				8C3261A5BB7918F694F674729292EF6F /* AFNetworkActivityIndicatorManager.h */,
-				D2C22D1DDAAE277BE7658E960FC1EC2D /* AFNetworkActivityIndicatorManager.m */,
-				5F178C7828BC1655AB133C52D8D69F9C /* UIActivityIndicatorView+AFNetworking.h */,
-				43C72D6FAC57AE3D5AC70797F1393723 /* UIActivityIndicatorView+AFNetworking.m */,
-				745110AE564E01149666A04554B7E709 /* UIAlertView+AFNetworking.h */,
-				0C332F72A806C7B04B4B83128F281C79 /* UIAlertView+AFNetworking.m */,
-				7D6A0509165A5EC5120DB24E5A4FDC0D /* UIButton+AFNetworking.h */,
-				BD2224134F411D0862DD28293FC569D6 /* UIButton+AFNetworking.m */,
-				9DD289BC29C47E1B48BC2727AC1C437D /* UIImage+AFNetworking.h */,
-				4CD6F46E8009EA477C9E2C32ACF1AE19 /* UIImageView+AFNetworking.h */,
-				F3D9A201EDDC5EFD3E75A8278A388A5A /* UIImageView+AFNetworking.m */,
-				210B4D796754D23FF25551287BE0F31D /* UIKit+AFNetworking.h */,
-				871C16D97FB10AFC4AFE24AA6F8D3070 /* UIProgressView+AFNetworking.h */,
-				B5D2B455E0ACA9D345731D0AC3A57E72 /* UIProgressView+AFNetworking.m */,
-				C826B90D43D460E5829A09E6AA8D55EF /* UIRefreshControl+AFNetworking.h */,
-				59378CE56BA43DD0A701186AD826E0E6 /* UIRefreshControl+AFNetworking.m */,
-				AE9A282A28D6946D255D0CEEEBE712F0 /* UIWebView+AFNetworking.h */,
-				E72198AAE96563BD64D291ED6F1016A8 /* UIWebView+AFNetworking.m */,
-			);
-			name = UIKit;
-			sourceTree = "<group>";
-		};
-		5DFBBF9923701DAB5BBE18F0D87B7E1A /* XMLWriter */ = {
-			isa = PBXGroup;
-			children = (
-				3362EA9538173021892AD5EDBDEF9B4D /* XMLWriter.h */,
-				8D0CCC26AE4615E9ADD93639F8FA6F5C /* XMLWriter.m */,
+				53FA98865717E0DFE1CF958B392C4E18 /* XMLWriter.h */,
+				4D238B599B0477B9DA888372CB0A78B7 /* XMLWriter.m */,
 			);
 			name = XMLWriter;
 			sourceTree = "<group>";
 		};
-		5EBC2C523334A73AC93B7EC4009DAA50 /* Pods */ = {
+		226FB980952BFC00754D1F0EB79F79EC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AAB28781BA4948EBF423491B68D9E94D /* AFNetworking */,
-				6D2C74B3630D09F5FB0AD5ABB244FC89 /* GDataXML-HTML */,
-				6BA5EB972A2D33DDE1E6BB37CCBB6D92 /* PicoKit */,
+				42CA87680942A73DB35F87F61DE8D8AD /* GoogleInterchangeUtilities.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24713834494FD5D5B35B7768541368F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFF2D97F9B419D4C47DC95D06A859EA7 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		256D84C8B9B070643F231FD64EF58B41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B096D803886239B58786E4C474AA1F5E /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51F69F8D3A44DCE6566E1A185330B5D8 /* GDataXML-HTML */ = {
+			isa = PBXGroup;
+			children = (
+				A34B4ACA716B7B6CF693402086B8C5FA /* GDataXMLNode.h */,
+				476AE7B746B850071740AC2C4241BBFA /* GDataXMLNode.m */,
+				AD3EFC48DB1B19594617D4DFE1A384E2 /* Support Files */,
+			);
+			path = "GDataXML-HTML";
 			sourceTree = "<group>";
 		};
 		66A811AC6B3E68C56ABA483BC8716E78 /* Frameworks */ = {
@@ -534,17 +664,55 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		69AB8E4DFFABED5D5F2FA00DCF9F6ACA /* Support Files */ = {
+		66D075E70B713B4E60265E37A5D617D7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9EDB607815CCCAF2DC8FC9AFC866D634 /* GDataXML-HTML.modulemap */,
-				02C86F4E64AFFB36FAAD2E360B0178B4 /* GDataXML-HTML.xcconfig */,
-				76FAFA627BE15B279F42DC59745497C8 /* GDataXML-HTML-dummy.m */,
-				34B27F8D4B23B51DAA41FF3E97FD0011 /* GDataXML-HTML-prefix.pch */,
-				CD3072703250A464EC8B1867E7DC2A35 /* Info.plist */,
+				A3100F42BCC94D2159C4D0C62C593AF9 /* FirebaseAnalytics.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/GDataXML-HTML";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66E5221654BEA5ED8BBC1A9A987D96FD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				62DBFC23355FAB16664861165B39E1F6 /* PicoBindable.h */,
+				3170F4FF3E92474EA69236FA0F165FB2 /* PicoBindingSchema.h */,
+				62BCD71C84714CDB07BE8B6F5E61BBFE /* PicoBindingSchema.m */,
+				E5290ACD66677175FCEE26FD79DDD01E /* PicoBoolConverter.h */,
+				50A0F04900E014517C15BA3C6084466F /* PicoBoolConverter.m */,
+				3E889A5027C532B4930F69465411A403 /* PicoCache.h */,
+				8928ECF96714F713390B5FCC05D89289 /* PicoCache.m */,
+				643561DEC39A710B8A8A9D1BF476E3D3 /* PicoCacheEntry.h */,
+				F5F300A87EDF200B00A6BFAAB19108B5 /* PicoCacheEntry.m */,
+				F8987D924C81E731D9A2255813A6FA07 /* PicoClassSchema.h */,
+				F8F7871262A1467F5DC99ABCCD8C79DD /* PicoClassSchema.m */,
+				13EA163D8A4E3A95B8442806D5EFC2A4 /* PicoConfig.h */,
+				1820FE1F3CF1E67158B4E3FBFF465A09 /* PicoConfig.m */,
+				9AE6EF64E5C1A6FE365D6A779FD903E6 /* PicoConstants.h */,
+				C1B45227C657FA3DF2CDA5AB934FD182 /* PicoConstants.m */,
+				969C49C4493667D3B478E262AFF82D93 /* PicoConvertable.h */,
+				E7BFF5EF7790E1256405211421EDAF70 /* PicoConverter.h */,
+				3003E4E786F629B3512A0AE5E8F60BF5 /* PicoConverter.m */,
+				2AEDF4305C6D5EEBAC0CB2AB64405009 /* PicoDataConverter.h */,
+				55690D869E8DFA81226D2F127FCA90E4 /* PicoDataConverter.m */,
+				E54F6C4981A1851B09E22E55657BEB8F /* PicoDateConverter.h */,
+				A1CF82F0649719EE753F8DCF8B86250B /* PicoDateConverter.m */,
+				300D54F8E13C061F66A39FAAE1F906AE /* PicoNumberConverter.h */,
+				43323F3EC3F18997C310C4E9C35C12D0 /* PicoNumberConverter.m */,
+				8A54EC393866ABA861FACF8FCD58E513 /* PicoPropertySchema.h */,
+				3A33473348DE7339DF724F0E1165D0BE /* PicoPropertySchema.m */,
+				D9D14D430E46E9E88565F6BA423FBA88 /* PicoReadable.h */,
+				EEA8E8F7E3F247A6C23E1BC6EF9E1725 /* PicoStringConverter.h */,
+				4F2447C9A33D69C13B935C995C63537E /* PicoStringConverter.m */,
+				0A21660277A9EDA58FCB31FD92C1BA43 /* PicoWritable.h */,
+				38BC154BEE06AD869828974FC8BF84B7 /* PicoXMLElement.h */,
+				7D4050E96A5B7A4A46F73C1F9F20DC30 /* PicoXMLElement.m */,
+				4D5444B31B5FD0857CCAAFC45023CF5D /* PicoXMLReader.h */,
+				C4072524A537DA7884A51C35C7F78A11 /* PicoXMLReader.m */,
+				901F9CB0EBC0E12A1B8DD27F1E18F3DE /* PicoXMLWriter.h */,
+				8C8086B116F55A5482F44E9CBAFF6155 /* PicoXMLWriter.m */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		6A86FF54D8EE6500D598F5FA499EBBB2 /* iOS */ = {
@@ -558,44 +726,6 @@
 				1C06775C1550577DD6BA9100EEF1CF95 /* SystemConfiguration.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		6B0780B3AC0B08E7F0A781E6DE8D543C /* WebService */ = {
-			isa = PBXGroup;
-			children = (
-				01C2567084F032D0ED7ED2F93366DDD0 /* PicoSOAPClient.h */,
-				D059429AC7558EE76CFD38A3267D349F /* PicoSOAPClient.m */,
-				53E46676B7E2E8FBC630F1DCA616D7ED /* PicoSOAPRequestOperation.h */,
-				6DBBDDD76AE29657608CBC1B1CB7B585 /* PicoSOAPRequestOperation.m */,
-				CCD8EA4CC2F4CECC02CC092D12B37E92 /* PicoXMLClient.h */,
-				21D8FE1810CA6BC62265331470A0F68E /* PicoXMLClient.m */,
-				91AC7D6ACA7F3B7625E34C29505A6D2F /* PicoXMLRequestOperation.h */,
-				1FFFC4ADC6D0BED7E13FDD31356A3782 /* PicoXMLRequestOperation.m */,
-			);
-			name = WebService;
-			sourceTree = "<group>";
-		};
-		6BA5EB972A2D33DDE1E6BB37CCBB6D92 /* PicoKit */ = {
-			isa = PBXGroup;
-			children = (
-				EBB9BCEACE9BBD44156FC453BCF01F84 /* Core */,
-				1CF52CB5D80D1CDDF05C73DF60E71D6C /* OrderedDictionary */,
-				A7B9E99155AFFE796FABC1909A7F6300 /* Soap */,
-				F91A89ECBA28A57A3AB958DD51F6A7CB /* Support Files */,
-				6B0780B3AC0B08E7F0A781E6DE8D543C /* WebService */,
-				5DFBBF9923701DAB5BBE18F0D87B7E1A /* XMLWriter */,
-			);
-			path = PicoKit;
-			sourceTree = "<group>";
-		};
-		6D2C74B3630D09F5FB0AD5ABB244FC89 /* GDataXML-HTML */ = {
-			isa = PBXGroup;
-			children = (
-				370C3551867A163835D5FC81E2CC892E /* GDataXMLNode.h */,
-				7F76F07096DAFADC39C37900992F673B /* GDataXMLNode.m */,
-				69AB8E4DFFABED5D5F2FA00DCF9F6ACA /* Support Files */,
-			);
-			path = "GDataXML-HTML";
 			sourceTree = "<group>";
 		};
 		755D7FA3F63B668790BF96390F7111A3 /* Pods-VendooUITests */ = {
@@ -616,15 +746,51 @@
 			path = "Target Support Files/Pods-VendooUITests";
 			sourceTree = "<group>";
 		};
+		7BAE1DC1569842DDA523567F5B38D324 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				167E217A5702C10C499C1EAAE5566D18 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				66A811AC6B3E68C56ABA483BC8716E78 /* Frameworks */,
-				5EBC2C523334A73AC93B7EC4009DAA50 /* Pods */,
+				E4D38C12069FD6B7FFC072FD99631C1C /* Pods */,
 				B0A51DFDB49B1911B2B0BA479202BF1C /* Products */,
 				9C6047AF09B8C095E15AD8C92F6A9D70 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		86C7229DBD21B2F02F68BF86A30FAF9A /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				E4D6DF2CAF05D7A235B746A3D843F01B /* PicoSOAPClient.h */,
+				F234B925AA6872541007A60A3E983B73 /* PicoSOAPClient.m */,
+				0DF0825BB56C257DCA6A26D4DD3F2835 /* PicoSOAPRequestOperation.h */,
+				1D4733FC157765226E68AD32A0CBA8C4 /* PicoSOAPRequestOperation.m */,
+				BF6544EA116AB8FC5061772DDC058B5F /* PicoXMLClient.h */,
+				7034CC8AA579C08A8F17AD7FCF866FAA /* PicoXMLClient.m */,
+				4A5B10338440F44C90C156607DF15149 /* PicoXMLRequestOperation.h */,
+				4211E626A2C8F6D924CE1E34634100E3 /* PicoXMLRequestOperation.m */,
+			);
+			name = WebService;
+			sourceTree = "<group>";
+		};
+		968286FD8DCA8D38AB75A20FAD79D138 /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				6A889FEBF5EBB5F2AD88AF2D38EBF947 /* AFHTTPRequestOperation.h */,
+				2DEF70DD55161793518A1040BE04289C /* AFHTTPRequestOperation.m */,
+				32E75A818715E87D1A71BE3D468CFB62 /* AFHTTPRequestOperationManager.h */,
+				03D6E56B1B8C20C8CBC6299C42DBF6CF /* AFHTTPRequestOperationManager.m */,
+				DA04BF85093538ECA5F320B436EB8E89 /* AFURLConnectionOperation.h */,
+				9F9CEF5D61284D6B46AB0778BAF01072 /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
 			sourceTree = "<group>";
 		};
 		9C6047AF09B8C095E15AD8C92F6A9D70 /* Targets Support Files */ = {
@@ -637,88 +803,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A7B9E99155AFFE796FABC1909A7F6300 /* Soap */ = {
+		AD3EFC48DB1B19594617D4DFE1A384E2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B43F34E8150FBC2E62C6253F0A3AB69F /* PicoSOAPReader.h */,
-				99145C08C4FB05EA6555BA9D5D7D069B /* PicoSOAPReader.m */,
-				BD012CA166D51A4E1F0798D56ACAC9EC /* PicoSOAPWriter.h */,
-				DA846E3B3EA02B668B6CC654B1A19335 /* PicoSOAPWriter.m */,
-				7B9D93804D8AB633A25B5982ED5E3E00 /* SOAP11Body.h */,
-				E3B70D1FAE6FA017A6BC4A688E7D52CD /* SOAP11Body.m */,
-				DAB010AF1E902FF28C45EBD1CC2C37E9 /* SOAP11Detail.h */,
-				20D306583A2D6C297AEBBD7455BDFB5A /* SOAP11Detail.m */,
-				4FF2094EF2002373DF40A97B16A9624A /* SOAP11Envelope.h */,
-				BFC4928FD73026E2AA21B8F564B235CD /* SOAP11Envelope.m */,
-				63F7336BA801AB13DC0DF628C7DC812B /* SOAP11Fault.h */,
-				D2DB57F6D8D5980A65DB299E91F3C3A2 /* SOAP11Fault.m */,
-				B9D1060F8BB40DEF8479E69508FA704B /* SOAP11Header.h */,
-				AE5929EBA51032CE539858FC4069C939 /* SOAP11Header.m */,
-				9B0D5F0DF7CC1BADB9684628068DC994 /* SOAP12Body.h */,
-				6B0BCF679277CBCB18B8EE5F448984F8 /* SOAP12Body.m */,
-				979ABA97951E3FEDC5345F555FB1ED00 /* SOAP12Detail.h */,
-				D7080C09F8B3C8128AFC9E83635B004D /* SOAP12Detail.m */,
-				2F0099C75363F4C867676E938E763AE7 /* SOAP12Envelope.h */,
-				F43A4DA2AA6B7AAFB25596E0EB0B27D1 /* SOAP12Envelope.m */,
-				FFB0121F7557174A2A63366599068120 /* SOAP12Fault.h */,
-				60AD3CA693AB59CF691ADB3137AF6892 /* SOAP12Fault.m */,
-				C0FFEFCB21A4B05C927827346FF874DD /* SOAP12Faultcode.h */,
-				BE6A9E0600B2CEDBA95A9DC72FF0B6C1 /* SOAP12Faultcode.m */,
-				96A9A95B1B37284EB3649B9700EB20F0 /* SOAP12FaultcodeEnum.h */,
-				30043924CD34D6D0E9E07F25C03261B7 /* SOAP12FaultcodeEnum.m */,
-				61B019834D20B8FFAF391604871BD3F8 /* SOAP12Faultreason.h */,
-				BFD049F1EA8CA39B4D7B3A1B8182D4EB /* SOAP12Faultreason.m */,
-				D8B3BA0EA22E67BB561C224E2050C7A3 /* SOAP12Header.h */,
-				E54218A731CB4127B7661A0C2326B8BE /* SOAP12Header.m */,
-				3A6329E054BE3765931C923F625033BA /* SOAP12NotUnderstoodType.h */,
-				ECD4540EA16940DCDFA72C40BE4D59AE /* SOAP12NotUnderstoodType.m */,
-				9C53D322DB43E33BC4063FF12C5F48B9 /* SOAP12Reasontext.h */,
-				E252C34D195CB35FBB57F4205878A4BE /* SOAP12Reasontext.m */,
-				5EE510BAA0D471BDD6B2538B98184373 /* SOAP12Subcode.h */,
-				733039015E379E02B237DF74A67327E5 /* SOAP12Subcode.m */,
-				F5F2B952197DEEA8C92ABC117964775F /* SOAP12SupportedEnvType.h */,
-				3134F2CFC239BFABB77155AD2803EFE6 /* SOAP12SupportedEnvType.m */,
-				D40F86CD51211AA8C62B000F7A392FDB /* SOAP12UpgradeType.h */,
-				94604F224B7271633876B766C32832AA /* SOAP12UpgradeType.m */,
+				F06EEB1B0B3C59AA6B332EBDE7BCCCB9 /* GDataXML-HTML.modulemap */,
+				587D96A95EBF2264C005E078E0A2B4EA /* GDataXML-HTML.xcconfig */,
+				6B7EDD095B7A00443C78D6D7B061C3C2 /* GDataXML-HTML-dummy.m */,
+				927486016B5FD0B1B4BD8D7BFD379DAC /* GDataXML-HTML-prefix.pch */,
+				E003EA34FC02ABD78E3135413DA9BF83 /* Info.plist */,
 			);
-			name = Soap;
+			name = "Support Files";
+			path = "../Target Support Files/GDataXML-HTML";
 			sourceTree = "<group>";
 		};
-		AAB28781BA4948EBF423491B68D9E94D /* AFNetworking */ = {
+		AFF9F3B09FB50D39F4FEF2555D4C46FD /* GoogleSymbolUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				FADE1B70C8BC9EA51F1000530B8B1D95 /* AFNetworking.h */,
-				ABE4BD3C5262B51311C86EA4EE2ADA86 /* NSURLConnection */,
-				C65E7255012DCB807AD005859DD14347 /* NSURLSession */,
-				AD4E7E5A3EECB9AD4D0E367066CE7A0A /* Reachability */,
-				C75B6F7A0C3C8D88BAA0960BA0B34C1A /* Security */,
-				CAF92A37A6315A23B3A1C995AE50E81E /* Serialization */,
-				B247DC3B9C9C6CE6F5BD77998F371541 /* Support Files */,
-				47436E6DBEA52ACE508840CF1FF19B5A /* UIKit */,
+				256D84C8B9B070643F231FD64EF58B41 /* Frameworks */,
 			);
-			path = AFNetworking;
-			sourceTree = "<group>";
-		};
-		ABE4BD3C5262B51311C86EA4EE2ADA86 /* NSURLConnection */ = {
-			isa = PBXGroup;
-			children = (
-				427846954ECFA3C38BD92E94EFF73C76 /* AFHTTPRequestOperation.h */,
-				5DAFB848B7EB13C5136C80A1561B8958 /* AFHTTPRequestOperation.m */,
-				51CA8815C76425144DFCA23145CB5B0C /* AFHTTPRequestOperationManager.h */,
-				5CA5E6447701E4EB9C083CCC69A76BE9 /* AFHTTPRequestOperationManager.m */,
-				638115DB09385BBB194A51ED812D1316 /* AFURLConnectionOperation.h */,
-				67BF0C919763DE528711072D2EF9B651 /* AFURLConnectionOperation.m */,
-			);
-			name = NSURLConnection;
-			sourceTree = "<group>";
-		};
-		AD4E7E5A3EECB9AD4D0E367066CE7A0A /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				4084B4EA24E09C9702116C3716D68363 /* AFNetworkReachabilityManager.h */,
-				455239AD00541C7CC070C36D02C51B54 /* AFNetworkReachabilityManager.m */,
-			);
-			name = Reachability;
+			path = GoogleSymbolUtilities;
 			sourceTree = "<group>";
 		};
 		B0A51DFDB49B1911B2B0BA479202BF1C /* Products */ = {
@@ -734,92 +837,90 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B247DC3B9C9C6CE6F5BD77998F371541 /* Support Files */ = {
+		BE0C56F04C79B646D24D0CBA8CE8AF10 /* GoogleUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				7203BDAC4DEDF78F59E757C9C618C1A6 /* AFNetworking.modulemap */,
-				6EBDFA04E8A428845A1829DF9982EC0F /* AFNetworking.xcconfig */,
-				72016876D7B47DC3C3E3259556BBD7B9 /* AFNetworking-dummy.m */,
-				C02B4AB225DA58C635E5A51187D951A0 /* AFNetworking-prefix.pch */,
-				231F4D1DC8ABC11FDFC59604234C54C7 /* AFNetworking-umbrella.h */,
-				DD6193BD416056834746D0A031025D48 /* Info.plist */,
+				24713834494FD5D5B35B7768541368F4 /* Frameworks */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/AFNetworking";
+			path = GoogleUtilities;
 			sourceTree = "<group>";
 		};
-		C65E7255012DCB807AD005859DD14347 /* NSURLSession */ = {
+		C255AF659AA54F12B0AAED5FB8A82699 /* Security */ = {
 			isa = PBXGroup;
 			children = (
-				3DECD29A116FC8B288ABD073831B03CF /* AFHTTPSessionManager.h */,
-				9C44319040FC132262083F8875220725 /* AFHTTPSessionManager.m */,
-				F25D61FEA62DFCA2769492EFD02847F2 /* AFURLSessionManager.h */,
-				1EC8BDEAADDFB3D63F21054F25BEB768 /* AFURLSessionManager.m */,
-			);
-			name = NSURLSession;
-			sourceTree = "<group>";
-		};
-		C75B6F7A0C3C8D88BAA0960BA0B34C1A /* Security */ = {
-			isa = PBXGroup;
-			children = (
-				0415A19E00405EC9C792F7F2010BE933 /* AFSecurityPolicy.h */,
-				43691A9FCB3D14495DC8FC712211D2AA /* AFSecurityPolicy.m */,
+				DECF54BFB8B8DB771046002934D3A7A8 /* AFSecurityPolicy.h */,
+				9F4357669E3447C7453FFA688442C4EB /* AFSecurityPolicy.m */,
 			);
 			name = Security;
 			sourceTree = "<group>";
 		};
-		CAF92A37A6315A23B3A1C995AE50E81E /* Serialization */ = {
+		D0D919188AB36835D4394C72E75DB8C5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2DBA41663E3D7BB320141809CC1CA756 /* AFURLRequestSerialization.h */,
-				EAB930218C4D9EBBA5544E3A78EA1DE3 /* AFURLRequestSerialization.m */,
-				F8445BAE2C735F6B910E42E1FF9FF610 /* AFURLResponseSerialization.h */,
-				723F7BADE0A4EA4DE4A81D03098EEE13 /* AFURLResponseSerialization.m */,
+				F501CFC3784B7527050CC70DDA4CC209 /* FirebaseInstanceID.framework */,
 			);
-			name = Serialization;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EBB9BCEACE9BBD44156FC453BCF01F84 /* Core */ = {
+		D5D012BC8F3906935DC8DA8A288A5E18 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				098E7925649005223DB78556A188FC28 /* PicoBindable.h */,
-				A4D9D56C238CA9A38F0C3077E7DB2642 /* PicoBindingSchema.h */,
-				148D1ADCB591F54A3A0C57F01183C26A /* PicoBindingSchema.m */,
-				C88D2332190AE02F18972E6365B65CCB /* PicoBoolConverter.h */,
-				FC6B66DB918EF085489A7563AB207079 /* PicoBoolConverter.m */,
-				8EEA8B73E819E1A319B720B2F027D8E1 /* PicoCache.h */,
-				B623577D53F79BAFA170B863D64B2F73 /* PicoCache.m */,
-				47ADD2FD164D915946C0A85C514A74E8 /* PicoCacheEntry.h */,
-				5FB5B933C06F9CCC81AA2A9581CEB43B /* PicoCacheEntry.m */,
-				1F022FA2315D5E13D01DD628D7A24450 /* PicoClassSchema.h */,
-				94BECC6B87E1AC1FC868121CA6688E7F /* PicoClassSchema.m */,
-				FD1EA74DB0C8168AB11D94C193EEBE21 /* PicoConfig.h */,
-				20C7870F66C94EFDE5B5F5E50D0F7544 /* PicoConfig.m */,
-				31D7D5DEAFE868A4A4ECBE840EA26266 /* PicoConstants.h */,
-				6EFF8DEF2E940633D12C992A63885E7A /* PicoConstants.m */,
-				3C04FF82DA8B9B30DC7B08DABB6CE2E7 /* PicoConvertable.h */,
-				69AC004A4D5324053295C901E6F58536 /* PicoConverter.h */,
-				6A92DEDCC3AA66A576EBF1A811F420C4 /* PicoConverter.m */,
-				5E8872AA4A2FD7BE965C1FEBBBF75418 /* PicoDataConverter.h */,
-				F437A4D9088226CC2506F2C83B892937 /* PicoDataConverter.m */,
-				D87450CF1D08FE3AF1D50C930A26766F /* PicoDateConverter.h */,
-				86B489E85EDF03229DD5EF39D661B95F /* PicoDateConverter.m */,
-				30689632F7CA2D0B8CE47383E635F307 /* PicoNumberConverter.h */,
-				CBC69EDB7F90A6F8EF37863A89F5EA1D /* PicoNumberConverter.m */,
-				764084D3967AB85C11A5FFFE5D2D3024 /* PicoPropertySchema.h */,
-				138243E3F436BF2764311575B33C0AE3 /* PicoPropertySchema.m */,
-				BA1D5E1095DFBED0F10F2654B1B27BF4 /* PicoReadable.h */,
-				51324724A02FE64560E0FDC0CFBAFE2A /* PicoStringConverter.h */,
-				ADC11D1F446961C29239BF3E298C0B7D /* PicoStringConverter.m */,
-				58A1C47AC811D5C4CAA4CE9374FB14BA /* PicoWritable.h */,
-				E0FC043CC1D63F99E77FBD5BFAFCEBC7 /* PicoXMLElement.h */,
-				6121C03B9153C5D4E331C742E34071D2 /* PicoXMLElement.m */,
-				C925A25F2182E5240629C5CEADB18EDF /* PicoXMLReader.h */,
-				7A913E9C91E8C41D8B688FB313CDAF60 /* PicoXMLReader.m */,
-				FA4274B0B18C044CF695057D4E3B6419 /* PicoXMLWriter.h */,
-				95E02AC300CCE70E6D037A5146528BED /* PicoXMLWriter.m */,
+				33A98A57AAC74C1EB904C1FE2306093F /* AFNetworkActivityIndicatorManager.h */,
+				A1748DD6A43645DBB240D06557D9A85C /* AFNetworkActivityIndicatorManager.m */,
+				FA992559AA1DBC9A083460ED306F4EE1 /* UIActivityIndicatorView+AFNetworking.h */,
+				E0E2769182A0B615954FAF8426C83948 /* UIActivityIndicatorView+AFNetworking.m */,
+				B9FCA89C6EED881C8B468E3291EC38A4 /* UIAlertView+AFNetworking.h */,
+				ABD703E316DF3A1FF95DD4AD24067E87 /* UIAlertView+AFNetworking.m */,
+				4DAE9643BCEDF15DF6CF6F520E86EA4E /* UIButton+AFNetworking.h */,
+				47B543DB180DFEADE34BFD5E8FFA2D1F /* UIButton+AFNetworking.m */,
+				E55C0A3E2128C89C47B0ABE898AA3774 /* UIImage+AFNetworking.h */,
+				B116BDFB13018F1EA946A68157FF342D /* UIImageView+AFNetworking.h */,
+				97FED7B6DE77CEADA93DD008EAD6D865 /* UIImageView+AFNetworking.m */,
+				ED906269CCE57DDE25B8E28D27279C06 /* UIKit+AFNetworking.h */,
+				7721832C4979460884DFE75D5248D094 /* UIProgressView+AFNetworking.h */,
+				79C8C238DF4982D3BC1810EA06D97D72 /* UIProgressView+AFNetworking.m */,
+				9211C98F051B7C9D828B7EF13366085F /* UIRefreshControl+AFNetworking.h */,
+				14C12E1EA53CF870C32DB1D05731F551 /* UIRefreshControl+AFNetworking.m */,
+				2EF0D4763542C81920CBB6BAD1E7D61B /* UIWebView+AFNetworking.h */,
+				7B0371CF0E8C751E84C1533B28D3358B /* UIWebView+AFNetworking.m */,
 			);
-			name = Core;
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		E2623FC02F81E76FA31464A6FC11A95A /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				5F25E5AFAC34E87270E269BD0C302A6C /* AFHTTPSessionManager.h */,
+				61CB184749E5A63806C9B0E589C0ED46 /* AFHTTPSessionManager.m */,
+				C04022B3743F94D6272F17BC9AD760EB /* AFURLSessionManager.h */,
+				91352F40D4E9D8E1476BB2CB919CFF98 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		E33F2E4DAB113529DED82769A72E5E82 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				22D30008B78B6ECFE4250AE1CCEADBA5 /* FIRInstanceID.h */,
+				D0D919188AB36835D4394C72E75DB8C5 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		E4D38C12069FD6B7FFC072FD99631C1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04E1BE140EADF9535F1FBCA0DE116D6E /* AFNetworking */,
+				7BAE1DC1569842DDA523567F5B38D324 /* Firebase */,
+				03AB62894AD6181D755321DA5D5C5C2F /* FirebaseAnalytics */,
+				E33F2E4DAB113529DED82769A72E5E82 /* FirebaseInstanceID */,
+				51F69F8D3A44DCE6566E1A185330B5D8 /* GDataXML-HTML */,
+				12B7A048D12FBDE4A16F7BD206D62BA5 /* GoogleInterchangeUtilities */,
+				AFF9F3B09FB50D39F4FEF2555D4C46FD /* GoogleSymbolUtilities */,
+				BE0C56F04C79B646D24D0CBA8CE8AF10 /* GoogleUtilities */,
+				03B66D10345760F2BC58F90BA173574B /* PicoKit */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		ECFACD077B2A093918E8C39125BBE3E1 /* Pods-VendooTests */ = {
@@ -840,18 +941,27 @@
 			path = "Target Support Files/Pods-VendooTests";
 			sourceTree = "<group>";
 		};
-		F91A89ECBA28A57A3AB958DD51F6A7CB /* Support Files */ = {
+		F2235E241A458E629CB2CA250F4A72C1 /* OrderedDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				BC26C2B60784CD420C1CE71175D813AB /* Info.plist */,
-				C82D5F999289EA15153EA6C3A6D9B83C /* PicoKit.modulemap */,
-				C7EF09B046150571D7891E04A25A4E86 /* PicoKit.xcconfig */,
-				DA0551535C161FA6C55748D6903D8D21 /* PicoKit-dummy.m */,
-				132A13FEED5F57CBF74427669A0B76CF /* PicoKit-prefix.pch */,
-				CC5B40E52C8E40166F896597BA834AC2 /* PicoKit-umbrella.h */,
+				F539ED135C0480F66225B189D78A3417 /* OrderedDictionary.h */,
+				F5628AA9687F9C5F9802513691CCA257 /* OrderedDictionary.m */,
+			);
+			name = OrderedDictionary;
+			sourceTree = "<group>";
+		};
+		FE986ED6C8281DF4BB1185DE501F2515 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0B683C7F548100E9532C45A31563038 /* AFNetworking.modulemap */,
+				E766D77F443C5C390B979C8F7238117C /* AFNetworking.xcconfig */,
+				39104F1B3387A20F4D1EA692E7BF8B48 /* AFNetworking-dummy.m */,
+				5E2D8506960270C17A4E6C38CE87A5AA /* AFNetworking-prefix.pch */,
+				25D7FD90D6F4667404C466150420F6F9 /* AFNetworking-umbrella.h */,
+				9EE6307382975ED999383D8386B12258 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/PicoKit";
+			path = "../Target Support Files/AFNetworking";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1259,7 +1369,7 @@
 /* Begin XCBuildConfiguration section */
 		09B8B93DA94703982480DC610CD974DE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7EF09B046150571D7891E04A25A4E86 /* PicoKit.xcconfig */;
+			baseConfigurationReference = 42FB38FC28A7F025F0150A733EBB7F04 /* PicoKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1288,7 +1398,7 @@
 		};
 		09DCD7B5ABC0BE2422EC17FF22EEA61F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7EF09B046150571D7891E04A25A4E86 /* PicoKit.xcconfig */;
+			baseConfigurationReference = 42FB38FC28A7F025F0150A733EBB7F04 /* PicoKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1355,7 +1465,7 @@
 		};
 		406C23A6F630DB686E934348A1CC25E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02C86F4E64AFFB36FAAD2E360B0178B4 /* GDataXML-HTML.xcconfig */;
+			baseConfigurationReference = 587D96A95EBF2264C005E078E0A2B4EA /* GDataXML-HTML.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1525,7 +1635,7 @@
 		};
 		8DA1DA9EAE81D3DB196E2F722C81AC20 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02C86F4E64AFFB36FAAD2E360B0178B4 /* GDataXML-HTML.xcconfig */;
+			baseConfigurationReference = 587D96A95EBF2264C005E078E0A2B4EA /* GDataXML-HTML.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1554,7 +1664,7 @@
 		};
 		9340D8E4B2DD920B75C8F847CAD25BB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EBDFA04E8A428845A1829DF9982EC0F /* AFNetworking.xcconfig */;
+			baseConfigurationReference = E766D77F443C5C390B979C8F7238117C /* AFNetworking.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1616,7 +1726,7 @@
 		};
 		A78CB9DDCA338DC66015FA65B1E768B2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EBDFA04E8A428845A1829DF9982EC0F /* AFNetworking.xcconfig */;
+			baseConfigurationReference = E766D77F443C5C390B979C8F7238117C /* AFNetworking.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;

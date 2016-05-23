@@ -24,6 +24,18 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
+## Firebase
+
+Copyright 2016 Google Inc.
+
+## FirebaseAnalytics
+
+Copyright 2016 Google Inc.
+
+## FirebaseInstanceID
+
+Copyright 2016 Google Inc.
+
 ## GDataXML-HTML
 
 
@@ -229,6 +241,18 @@ THE SOFTWARE.
    See the License for the specific language governing permissions and
    limitations under the License.
 
+
+## GoogleInterchangeUtilities
+
+Copyright 2015 Google Inc.
+
+## GoogleSymbolUtilities
+
+Copyright 2015 Google Inc.
+
+## GoogleUtilities
+
+Copyright 2015 Google Inc.
 
 ## PicoKit
 

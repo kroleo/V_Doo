@@ -12,6 +12,8 @@ target 'Vendoo' do
     # Pods for testing
 
     pod 'PicoKit'
+    pod 'Firebase'
+    
   end
 
   target 'VendooUITests' do
