@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BD4D4EBDE19E2FBA2CCB40C /* Pods_VendooUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FACABBA7656B6698731A6B0 /* Pods_VendooUITests.framework */; };
 		3E6CC3571CF2A94B00E00A70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6CC3561CF2A94B00E00A70 /* AppDelegate.swift */; };
 		3E6CC3591CF2A94B00E00A70 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6CC3581CF2A94B00E00A70 /* FirstViewController.swift */; };
 		3E6CC35B1CF2A94B00E00A70 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6CC35A1CF2A94B00E00A70 /* SecondViewController.swift */; };
@@ -15,6 +16,8 @@
 		3E6CC3631CF2A94B00E00A70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E6CC3611CF2A94B00E00A70 /* LaunchScreen.storyboard */; };
 		3E6CC36E1CF2A94B00E00A70 /* VendooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6CC36D1CF2A94B00E00A70 /* VendooTests.swift */; };
 		3E6CC3791CF2A94B00E00A70 /* VendooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6CC3781CF2A94B00E00A70 /* VendooUITests.swift */; };
+		CA20AB81F709511F1A8C7963 /* Pods_VendooTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05AEDAE485B93305CC629B5 /* Pods_VendooTests.framework */; };
+		D5995A6D02C7FCA4F561AAB3 /* Pods_Vendoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F69918E43DC1276F42551F /* Pods_Vendoo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06804DD03B93C7E2714D5566 /* Pods-VendooTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendooTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VendooTests/Pods-VendooTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B0AD5D22E5B4D8197481769 /* Pods-VendooTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendooTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VendooTests/Pods-VendooTests.release.xcconfig"; sourceTree = "<group>"; };
+		368DE81C9F5991477528A929 /* Pods-VendooUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendooUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VendooUITests/Pods-VendooUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3E6CC3531CF2A94B00E00A70 /* Vendoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vendoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E6CC3561CF2A94B00E00A70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E6CC3581CF2A94B00E00A70 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		3E6CC3741CF2A94B00E00A70 /* VendooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VendooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E6CC3781CF2A94B00E00A70 /* VendooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendooUITests.swift; sourceTree = "<group>"; };
 		3E6CC37A1CF2A94B00E00A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6979B7B8AF7AC049C2F23196 /* Pods-Vendoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vendoo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vendoo/Pods-Vendoo.release.xcconfig"; sourceTree = "<group>"; };
+		8FACABBA7656B6698731A6B0 /* Pods_VendooUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VendooUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9F6F7897E53ED9583C965E3 /* Pods-Vendoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vendoo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vendoo/Pods-Vendoo.debug.xcconfig"; sourceTree = "<group>"; };
+		D05AEDAE485B93305CC629B5 /* Pods_VendooTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VendooTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F04540FDEF587384AABE5D4B /* Pods-VendooUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendooUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VendooUITests/Pods-VendooUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8F69918E43DC1276F42551F /* Pods_Vendoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vendoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5995A6D02C7FCA4F561AAB3 /* Pods_Vendoo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA20AB81F709511F1A8C7963 /* Pods_VendooTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BD4D4EBDE19E2FBA2CCB40C /* Pods_VendooUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				3E6CC36C1CF2A94B00E00A70 /* VendooTests */,
 				3E6CC3771CF2A94B00E00A70 /* VendooUITests */,
 				3E6CC3541CF2A94B00E00A70 /* Products */,
+				58601EFD2871BD1BB6866596 /* Pods */,
+				D989DD70699180D9DB9DA709 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,29 @@
 			path = VendooUITests;
 			sourceTree = "<group>";
 		};
+		58601EFD2871BD1BB6866596 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9F6F7897E53ED9583C965E3 /* Pods-Vendoo.debug.xcconfig */,
+				6979B7B8AF7AC049C2F23196 /* Pods-Vendoo.release.xcconfig */,
+				06804DD03B93C7E2714D5566 /* Pods-VendooTests.debug.xcconfig */,
+				1B0AD5D22E5B4D8197481769 /* Pods-VendooTests.release.xcconfig */,
+				F04540FDEF587384AABE5D4B /* Pods-VendooUITests.debug.xcconfig */,
+				368DE81C9F5991477528A929 /* Pods-VendooUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D989DD70699180D9DB9DA709 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8F69918E43DC1276F42551F /* Pods_Vendoo.framework */,
+				D05AEDAE485B93305CC629B5 /* Pods_VendooTests.framework */,
+				8FACABBA7656B6698731A6B0 /* Pods_VendooUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E6CC37D1CF2A94B00E00A70 /* Build configuration list for PBXNativeTarget "Vendoo" */;
 			buildPhases = (
+				F467CC8AF77423C2B3AAB223 /* 📦 Check Pods Manifest.lock */,
 				3E6CC34F1CF2A94B00E00A70 /* Sources */,
 				3E6CC3501CF2A94B00E00A70 /* Frameworks */,
 				3E6CC3511CF2A94B00E00A70 /* Resources */,
+				057830C90EFCCD7B10B4BA6D /* 📦 Embed Pods Frameworks */,
+				2496EED87CE01F1EAE73BD6A /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E6CC3801CF2A94B00E00A70 /* Build configuration list for PBXNativeTarget "VendooTests" */;
 			buildPhases = (
+				9F58E69456F56F20E6643056 /* 📦 Check Pods Manifest.lock */,
 				3E6CC3651CF2A94B00E00A70 /* Sources */,
 				3E6CC3661CF2A94B00E00A70 /* Frameworks */,
 				3E6CC3671CF2A94B00E00A70 /* Resources */,
+				BB2BE6BA5C2D594FCCDF5838 /* 📦 Embed Pods Frameworks */,
+				6484261450FDD9D1DF56ED0B /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E6CC3831CF2A94B00E00A70 /* Build configuration list for PBXNativeTarget "VendooUITests" */;
 			buildPhases = (
+				99EF583910BFA3B053CE8591 /* 📦 Check Pods Manifest.lock */,
 				3E6CC3701CF2A94B00E00A70 /* Sources */,
 				3E6CC3711CF2A94B00E00A70 /* Frameworks */,
 				3E6CC3721CF2A94B00E00A70 /* Resources */,
+				E5E78F727C025682CA6C7DBC /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +301,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		057830C90EFCCD7B10B4BA6D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vendoo/Pods-Vendoo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2496EED87CE01F1EAE73BD6A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vendoo/Pods-Vendoo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6484261450FDD9D1DF56ED0B /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VendooTests/Pods-VendooTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99EF583910BFA3B053CE8591 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F58E69456F56F20E6643056 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB2BE6BA5C2D594FCCDF5838 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VendooTests/Pods-VendooTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5E78F727C025682CA6C7DBC /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VendooUITests/Pods-VendooUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F467CC8AF77423C2B3AAB223 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3E6CC34F1CF2A94B00E00A70 /* Sources */ = {
@@ -403,6 +574,7 @@
 		};
 		3E6CC37E1CF2A94B00E00A70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9F6F7897E53ED9583C965E3 /* Pods-Vendoo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Vendoo/Info.plist;
@@ -414,6 +586,7 @@
 		};
 		3E6CC37F1CF2A94B00E00A70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6979B7B8AF7AC049C2F23196 /* Pods-Vendoo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Vendoo/Info.plist;
@@ -425,6 +598,7 @@
 		};
 		3E6CC3811CF2A94B00E00A70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06804DD03B93C7E2714D5566 /* Pods-VendooTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = VendooTests/Info.plist;
@@ -437,6 +611,7 @@
 		};
 		3E6CC3821CF2A94B00E00A70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B0AD5D22E5B4D8197481769 /* Pods-VendooTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = VendooTests/Info.plist;
@@ -449,6 +624,7 @@
 		};
 		3E6CC3841CF2A94B00E00A70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F04540FDEF587384AABE5D4B /* Pods-VendooUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = VendooUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -460,6 +636,7 @@
 		};
 		3E6CC3851CF2A94B00E00A70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 368DE81C9F5991477528A929 /* Pods-VendooUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = VendooUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -488,6 +665,7 @@
 				3E6CC37F1CF2A94B00E00A70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E6CC3801CF2A94B00E00A70 /* Build configuration list for PBXNativeTarget "VendooTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +674,7 @@
 				3E6CC3821CF2A94B00E00A70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E6CC3831CF2A94B00E00A70 /* Build configuration list for PBXNativeTarget "VendooUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +683,7 @@
 				3E6CC3851CF2A94B00E00A70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
