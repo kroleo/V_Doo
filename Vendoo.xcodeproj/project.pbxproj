@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1BD4D4EBDE19E2FBA2CCB40C /* Pods_VendooUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FACABBA7656B6698731A6B0 /* Pods_VendooUITests.framework */; };
 		3E6CC3571CF2A94B00E00A70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6CC3561CF2A94B00E00A70 /* AppDelegate.swift */; };
-		3E6CC3591CF2A94B00E00A70 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6CC3581CF2A94B00E00A70 /* FirstViewController.swift */; };
+		3E6CC3591CF2A94B00E00A70 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6CC3581CF2A94B00E00A70 /* SignInViewController.swift */; };
 		3E6CC35B1CF2A94B00E00A70 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6CC35A1CF2A94B00E00A70 /* SecondViewController.swift */; };
 		3E6CC35E1CF2A94B00E00A70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E6CC35C1CF2A94B00E00A70 /* Main.storyboard */; };
 		3E6CC3601CF2A94B00E00A70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E6CC35F1CF2A94B00E00A70 /* Assets.xcassets */; };
@@ -17,6 +17,7 @@
 		3E6CC36E1CF2A94B00E00A70 /* VendooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6CC36D1CF2A94B00E00A70 /* VendooTests.swift */; };
 		3E6CC3791CF2A94B00E00A70 /* VendooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6CC3781CF2A94B00E00A70 /* VendooUITests.swift */; };
 		3E6CC3AD1CF381CE00E00A70 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E6CC3AC1CF381CE00E00A70 /* GoogleService-Info.plist */; };
+		3EB2F5161CF442CF002E6D2C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EB2F5151CF442CF002E6D2C /* Security.framework */; };
 		CA20AB81F709511F1A8C7963 /* Pods_VendooTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05AEDAE485B93305CC629B5 /* Pods_VendooTests.framework */; };
 		D5995A6D02C7FCA4F561AAB3 /* Pods_Vendoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F69918E43DC1276F42551F /* Pods_Vendoo.framework */; };
 /* End PBXBuildFile section */
@@ -44,7 +45,7 @@
 		368DE81C9F5991477528A929 /* Pods-VendooUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendooUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VendooUITests/Pods-VendooUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3E6CC3531CF2A94B00E00A70 /* Vendoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vendoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E6CC3561CF2A94B00E00A70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3E6CC3581CF2A94B00E00A70 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		3E6CC3581CF2A94B00E00A70 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		3E6CC35A1CF2A94B00E00A70 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		3E6CC35D1CF2A94B00E00A70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E6CC35F1CF2A94B00E00A70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,6 +58,7 @@
 		3E6CC3781CF2A94B00E00A70 /* VendooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendooUITests.swift; sourceTree = "<group>"; };
 		3E6CC37A1CF2A94B00E00A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E6CC3AC1CF381CE00E00A70 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3EB2F5151CF442CF002E6D2C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		6979B7B8AF7AC049C2F23196 /* Pods-Vendoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vendoo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vendoo/Pods-Vendoo.release.xcconfig"; sourceTree = "<group>"; };
 		8FACABBA7656B6698731A6B0 /* Pods_VendooUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VendooUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F6F7897E53ED9583C965E3 /* Pods-Vendoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vendoo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vendoo/Pods-Vendoo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EB2F5161CF442CF002E6D2C /* Security.framework in Frameworks */,
 				D5995A6D02C7FCA4F561AAB3 /* Pods_Vendoo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,7 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				3E6CC3561CF2A94B00E00A70 /* AppDelegate.swift */,
-				3E6CC3581CF2A94B00E00A70 /* FirstViewController.swift */,
+				3E6CC3581CF2A94B00E00A70 /* SignInViewController.swift */,
 				3E6CC35A1CF2A94B00E00A70 /* SecondViewController.swift */,
 				3E6CC35C1CF2A94B00E00A70 /* Main.storyboard */,
 				3E6CC35F1CF2A94B00E00A70 /* Assets.xcassets */,
@@ -164,6 +167,7 @@
 		D989DD70699180D9DB9DA709 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3EB2F5151CF442CF002E6D2C /* Security.framework */,
 				F8F69918E43DC1276F42551F /* Pods_Vendoo.framework */,
 				D05AEDAE485B93305CC629B5 /* Pods_VendooTests.framework */,
 				8FACABBA7656B6698731A6B0 /* Pods_VendooUITests.framework */,
@@ -436,7 +440,7 @@
 			files = (
 				3E6CC35B1CF2A94B00E00A70 /* SecondViewController.swift in Sources */,
 				3E6CC3571CF2A94B00E00A70 /* AppDelegate.swift in Sources */,
-				3E6CC3591CF2A94B00E00A70 /* FirstViewController.swift in Sources */,
+				3E6CC3591CF2A94B00E00A70 /* SignInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
