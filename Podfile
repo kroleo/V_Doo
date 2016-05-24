@@ -6,13 +6,13 @@ target 'Vendoo' do
   use_frameworks!
 
   # Pods for Vendoo
-
+  pod 'PicoKit'
+  pod 'Firebase', '>= 2.5.0'
+  pod 'FirebaseAuth'
+  
   target 'VendooTests' do
     inherit! :search_paths
     # Pods for testing
-
-    pod 'PicoKit'
-    pod 'Firebase'
     
   end
 

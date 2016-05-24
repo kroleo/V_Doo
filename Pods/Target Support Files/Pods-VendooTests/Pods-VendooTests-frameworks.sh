@@ -82,14 +82,3 @@ strip_invalid_archs() {
   fi
 }
 
-
-if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/AFNetworking/AFNetworking.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/GDataXML-HTML/GDataXML_HTML.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/PicoKit/PicoKit.framework"
-fi
-if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/AFNetworking/AFNetworking.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/GDataXML-HTML/GDataXML_HTML.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/PicoKit/PicoKit.framework"
-fi
