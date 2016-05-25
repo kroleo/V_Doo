@@ -6,8 +6,13 @@
 //  Copyright © 2016 Okechi Onyeje. All rights reserved.
 //
 
+//NEED TO FIX AUTO LOGIN USING KEYCHAIN AND SECURITY FRAMEWORKS, WILL WORK ON LATER
+
 import UIKit
 import FirebaseAuth
+import SwiftKeychainWrapper
+import Security
+
 
 class SignInViewController: UIViewController {
 
@@ -15,50 +20,44 @@ class SignInViewController: UIViewController {
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
 
-    //IBActions
-    @IBAction func signInUser(sender: UIButton) {
         
-    }
-    
-    @IBAction func signUpUser(sender: UIButton) {
-        
-    }
-    
-    //sends recovery email to user if password is forgotten
-    @IBAction func forgotPass(sender: UIButton) {
-        let prompt = UIAlertController.init(title: "Recover Password", message: "Email:", preferredStyle: UIAlertControllerStyle.Alert)
-        let okAction = UIAlertAction.init(title: "OK", style: UIAlertActionStyle.Default) { (action) in
-            let userInput = prompt.textFields![0].text
-            if (userInput!.isEmpty) {
-                return
-            }
-            FIRAuth.auth()?.sendPasswordResetWithEmail(userInput!) { (error) in
-                if let error = error {
-                    print(error.localizedDescription)
-                    return
-                }
-            }
-        }
-        
-        //adds textfield and ok(UIAlertAction) to prompt(UIAlertController) 
-        prompt.addTextFieldWithConfigurationHandler(nil)
-        prompt.addAction(okAction)
-        presentViewController(prompt, animated: true, completion: nil);
-    }
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        //set up delegates
+        self.email.delegate = self
+        self.password.delegate = self
+        
+        //working on keychain security for user login
+        /*
+        //set access group for keychain
+        KeychainWrapper.accessGroup = "group.myAccessGroup"
+        
+        //checks if user's login info is in keychain
+        if NSUserDefaults.standardUserDefaults().boolForKey("signedIn"){
+            self.email.text = NSUserDefaults.standardUserDefaults().objectForKey("email") as? String
+            print("User found")
+            
+            self.password.text = KeychainWrapper.stringForKey("password")!
+            signInUser(self)
+        }
+            
+        else{
+            print("user not found")
+        }
+         */
     }
-    
+   /*
     func viewDidAppear(){
         //authorize current users to skip SignInViewController
         if let user = FIRAuth.auth()?.currentUser {
-            self.signedIn(user)
+            self.signInUser(user)
         }
     }
-
+*/
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -67,9 +66,65 @@ class SignInViewController: UIViewController {
     
 }
 
+//IBActions
+extension SignInViewController {
+    @IBAction func signInUser(sender: AnyObject) {
+        FIRAuth.auth()?.signInWithEmail(email.text!, password: password.text!) { (user, error) in
+            if let error = error {
+                print(error.localizedDescription)
+                return
+            } else {
+                
+                dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                    /*If the user has not already signed in then save their log in info*/
+                    if !(NSUserDefaults.standardUserDefaults().boolForKey("signedIn")){
+                        NSUserDefaults.standardUserDefaults().setBool(true, forKey: "signedIn")
+                        NSUserDefaults.standardUserDefaults().setObject(self.email.text, forKey: "email")
+                        KeychainWrapper.setObject(self.password.text!, forKey: "password")
+                        print("User saved")
+                    }
+                    
+                    //will remove this line of code once
+                    //removes saved user until autologin and security keychain operational
+                    NSUserDefaults.standardUserDefaults().setBool(false, forKey: "signedIn")
+                    self.performSegueWithIdentifier("HomeScreenSegue", sender:nil)
+                    
+                })
+            }
+        }
+        
+    }
+    
+}
+
+
+
 //Mark: - TextField Delegate Methods
 extension SignInViewController: UITextFieldDelegate {
 
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        //dismissKeyboard()
+        self.view.endEditing(true)
+        return false
+    }
+    
+}
+
+//MARK: - Navigation Methods
+extension SignInViewController {
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        switch (segue.identifier!) {
+            
+        case "HomeScreenSegue":
+            //logic to prepare user for application use after firebase login
+            break
+        default:
+            //default logic for any other segues
+            break
+            
+        }
+    }
 }
 
 

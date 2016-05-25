@@ -57,11 +57,13 @@ PODS:
     - AFNetworking (~> 2.6.0)
     - PicoKit/Soap
   - PicoKit/XMLWriter (0.7.2)
+  - SwiftKeychainWrapper (1.0.11)
 
 DEPENDENCIES:
   - Firebase (>= 2.5.0)
   - FirebaseAuth
   - PicoKit
+  - SwiftKeychainWrapper
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
@@ -75,7 +77,8 @@ SPEC CHECKSUMS:
   GoogleSymbolUtilities: 33117db1b5f290c6fbf259585e4885b4c84b98d7
   GoogleUtilities: 56c5ac05b7aa5dc417a1bb85221a9516e04d7032
   PicoKit: 9079bce659a8d5408c8af1c45254b971df614de3
+  SwiftKeychainWrapper: 011a6946923948ffa49708014dd691164d7621d1
 
-PODFILE CHECKSUM: 9a529594a45edd2ead83265136d81142238ccc08
+PODFILE CHECKSUM: 52779e9424d73c48ebf071c4ab7523e4fad441bf
 
 COCOAPODS: 1.0.0

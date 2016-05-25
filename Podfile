@@ -9,7 +9,9 @@ target 'Vendoo' do
   pod 'PicoKit'
   pod 'Firebase', '>= 2.5.0'
   pod 'FirebaseAuth'
-  
+  pod 'SwiftKeychainWrapper'
+
+
   target 'VendooTests' do
     inherit! :search_paths
     # Pods for testing

@@ -40,7 +40,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="hCC-Gj-u8y" kind="modal" id="Xlu-lb-PqW"/>
+                                    <action selector="signInUser:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lhB-dc-GOL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LGq-WT-hhY">
@@ -48,9 +48,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sign Up!"/>
                                 <connections>
-                                    <action selector="signInUser:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HT6-pD-rrJ"/>
-                                    <action selector="signUpUser:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ODZ-mZ-9i5"/>
-                                    <segue destination="PkF-1J-5AZ" kind="modal" id="omX-6E-OqU"/>
+                                    <segue destination="PkF-1J-5AZ" kind="modal" identifier="SignUpSegue" id="omX-6E-OqU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lKa-Ou-aUQ">
@@ -58,8 +56,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Forgot Password?"/>
                                 <connections>
-                                    <action selector="forgotPass:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HvJ-Rm-63a"/>
-                                    <segue destination="qSV-Vj-ngP" kind="modal" id="EMi-IO-2i8"/>
+                                    <segue destination="qSV-Vj-ngP" kind="modal" identifier="PasswordRecoverySegue" id="6kY-hM-qQb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -70,6 +67,7 @@
                     <connections>
                         <outlet property="email" destination="CaA-5M-uvM" id="ifA-lL-jbG"/>
                         <outlet property="password" destination="m3f-JQ-CCf" id="8uw-4x-Kkl"/>
+                        <segue destination="hCC-Gj-u8y" kind="modal" identifier="HomeScreenSegue" id="KX0-Sg-1md"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -79,7 +77,7 @@
         <!--recoverPassword-->
         <scene sceneID="u6U-fS-FoE">
             <objects>
-                <viewController title="recoverPassword" id="qSV-Vj-ngP" sceneMemberID="viewController">
+                <viewController title="recoverPassword" id="qSV-Vj-ngP" customClass="RecoverPasswordViewController" customModule="Vendoo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QB8-Dr-C80">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -98,7 +96,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="bQk-xT-7lC">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" id="bQk-xT-7lC">
                                 <rect key="frame" x="93" y="236" width="189" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -108,6 +106,9 @@
                                 <rect key="frame" x="141" y="283" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="recoverySubmit:" destination="qSV-Vj-ngP" eventType="touchUpInside" id="Spe-YC-GBG"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An email with a new password will be sent to you soon" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="n3J-59-c1A">
                                 <rect key="frame" x="87" y="336" width="201" height="77"/>
@@ -121,12 +122,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <state key="normal" title="« Back to Login"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" identifier="BackToLoginSegue" id="H5N-s3-vpY"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="XQA-am-nz9"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="recoveryEmail" destination="bQk-xT-7lC" id="rEW-uO-heQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dyw-ta-pq5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -135,7 +142,7 @@
         <!--signUp-->
         <scene sceneID="gw9-WW-JKc">
             <objects>
-                <viewController title="signUp" id="PkF-1J-5AZ" customClass="ViewController" customModule="Vendoo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="signUp" id="PkF-1J-5AZ" customClass="SignUpViewController" customModule="Vendoo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6cj-br-zY3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -147,13 +154,13 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="Szf-J0-Wnl">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" id="Szf-J0-Wnl">
                                 <rect key="frame" x="93" y="332" width="188" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Password" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="8TY-uH-RSP">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" id="8TY-uH-RSP">
                                 <rect key="frame" x="93" y="378" width="188" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -167,7 +174,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="hCC-Gj-u8y" kind="modal" id="0Jz-Zn-QDr"/>
+                                    <action selector="signUpUser:" destination="PkF-1J-5AZ" eventType="touchUpInside" id="dvp-Q6-yQU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jCx-qV-0jU">
@@ -183,6 +190,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="M39-ba-Wht"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="email" destination="Szf-J0-Wnl" id="a1g-ia-FNO"/>
+                        <outlet property="password" destination="8TY-uH-RSP" id="o6Z-2k-L3D"/>
+                        <segue destination="hCC-Gj-u8y" kind="modal" identifier="HomeScreenSegue" id="ghy-R4-Ujy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2JU-bb-oUW" sceneMemberID="firstResponder"/>
             </objects>
@@ -633,7 +645,8 @@
         <image name="list" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="KX0-Sg-1md"/>
+        <segue reference="H5N-s3-vpY"/>
         <segue reference="vCG-jU-HYF"/>
-        <segue reference="Xlu-lb-PqW"/>
     </inferredMetricsTieBreakers>
 </document>
